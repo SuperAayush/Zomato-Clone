@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+.pic{
+    width: 100%;
+    height: 500px;
+}
+.container1{
+    width: 100%;
+}
+
+
+.container2{
+    padding-top: 20px;
+    padding-bottom:50px;
+}
+.container4{
+   margin-left: 10%;
+   margin-right: 10%;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   font-family: 'Open Sans', sans-serif;
+}
+#logo{
+    width: 300px;
+}
+.center{ 
+    position: absolute;
+    top: 13%;
+    left: 40%;
+ } 
+
+.page_title{
+    padding-left:20%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+.container4 h3{
+padding-top:20px;
+padding-bottom: 10px;
+}
+.container4 p{
+    color: #9C9C9C;
+    font-size: 16px;
+}
+.container3{
+    padding-top:30px;
+    background-color:#FFFBF7;
+}
+#iphone{
+    height:450px;
+}
+
+.container_a,.container_b{
+    display: inline-block;
+    vertical-align: top;
+}
+.container_a{
+    margin-left:25%;
+}
+.container_b{
+    padding-left: 3%;
+    padding-top: 60px;
+    width: 30%;
+}
+span{
+
+font-size: large;
+font-weight: 60px;
+}
+
+
+.text{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 150px;
+    font-family: 'PT Sans Caption', sans-serif;
+    display: flex;
+}
+.form-group{
+    display: flex;
+    padding-top: 13px;
+    height:80px;   
+    padding-bottom: 20px;
+}
+#danger{
+    margin-left:10px;
+    height: 50px;
+    width: 250px;
+    vertical-align: bottom;
+}
+#email{
+    height:50px;
+}
+
+.store{
+    width:30%;
+}
+
+/* @media only screen and (max-width:1027px){
+
+    .container_a{
+        margin-left:0;
+    }
+    .container_b{
+        padding-left: 3%;
+        padding-top: 60px;
+    }
+}
+@media only screen and (max-width:900px){
+
+    .container_a{
+        margin-left:0;
+    }
+    .container_b{
+        padding-left: 3%;
+        padding-top: 60px;
+    }
+} */
+.container5{
+    font-family: 'Paytone One', sans-serif;
+    padding-left:20px;
+}
+.navbar-brand{
+color: white;
+top: 15%;
+
+background-color:white;
+}
+.login{
+    color:white;
+    margin-left: 85%;
+    text-decoration: none;
+    font-style: bold;
+    margin-top: -1.9%;
+    top: 7%;
+    
+}
+.signup{
+    color:white;
+    text-decoration: none;
+    font-style: bold;
+    margin-left: 90%;
+    margin-top: -1.9%;
+    font-style: bold;
+    top: 7%;
+    
+    
+}
+.container-fluid{
+    display: flex;
+}
+.container5{
+    height:20px;
+    padding-left:144px; 
+    padding-top: 20px;
+}
+.container5,.container6,.container7{
+    background-color: #FCFCFC
+}
+
+.navbar{
+    bottom: 480px;
+}
+.container6{
+    padding-top:50px;
+    padding-left: 10%;
+   padding-right: 10%;
+    display: flex;
+    font-weight: lighter;
+}
+
+.container6-1,.container6-2,.container6-3,.container6-4,.container6-5
+{
+    padding-left:10%;
+    font-size:13px;
+    padding-top: 35px;
+}
+.container6-1
+{
+    padding-left:0;
+    font-size:13px;
+    padding-top: 35px;
+}
+.container7{
+    padding-left: 10%;
+   padding-right: 10%;
+   font-weight: lighter;
+   font-size:14px;
+   padding-bottom: 20px;
+}
+.getapp{
+    color:white;
+    margin-left: 10%;
+    text-decoration: none;
+    font-style: bold;
+    margin-top: 1%;
+    top: 9%;
+}
+    
+
+.store-footer{
+    height: 40px;
+    margin-top: 10%;
+}
+.search-btn{
+width: 130px;
+background-color: red;
+color: white;
+border: none;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+font-size: 20px;
+}
+.popular{
+    margin-top: 100px;
+}
+
