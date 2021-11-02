@@ -73,7 +73,7 @@ font-weight: 60px;
 .text{
     position: absolute;
     top: 25%;
-    left: 18%;
+    left: 23%;
     color: white;
     font-size: 2rem;
     font-weight: 150px;
@@ -201,7 +201,9 @@ background-color:white;
     top: 9%;
 }
     
-
+.footer_logo{
+    height:30px;
+}
 .store-footer{
     height: 40px;
     margin-top: 10%;
@@ -218,6 +220,7 @@ font-size: 20px;
 .popular{
     margin-top: 100px;
 }
+<<<<<<< HEAD
 .containerA{
     padding-left: 10%;
 }
@@ -237,3 +240,7 @@ font-size: 20px;
     padding-top: 50px;
     padding-left: 10%;
 }
+=======
+
+
+>>>>>>> upstream/main
