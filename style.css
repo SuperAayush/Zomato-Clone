@@ -218,4 +218,22 @@ font-size: 20px;
 .popular{
     margin-top: 100px;
 }
-
+.containerA{
+    padding-left: 10%;
+}
+.containerB{
+    padding-top: 1%;
+    padding-left: 10%;
+   padding-right: 10%;
+    display: flex;
+}
+.containerB-1,.containerB-2,.containerB-3,.containerB-4,.containerB-5{
+    padding-left: 10%;
+}
+.containerB-1{
+    padding-left: 0%;
+}
+.containerC{
+    padding-top: 50px;
+    padding-left: 10%;
+}
