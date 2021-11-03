@@ -17,6 +17,7 @@
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="index.js"></script>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 <title>Zomato</title>
 </head>
 
@@ -27,6 +28,7 @@
         <nav class="navbar">
             <div class="container-fluid">
              <a class="getapp" href="#">Get the app</a>
+             <a class="restaurant" href="#">Add restaurant</a>
               <a class="login" href="login.html">Log in</a>
               <a class="signup" href="#">Sign up</a>
             </div>
@@ -36,24 +38,25 @@
         </div>
      <div class="text">
         <p>Discover the best food & drinks in &nbsp;<p class="city"></p>.</p>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-text p-0">
-            <select class="form-select form-select-lg shadow-none bg-light border-0">
-                <option>Categories</option>
-                <option>One</option>
-                <option>Two</option>
-                <option>Three</option>
-                <option>Four</option>
-            </select>
-        </div>
-        <input type="text" class="form-control" placeholder="Search for Restaurants, Cuisine and Dishes">
-        <button class="input-group-text shadow-none px-4 btn-warning">
-            <i class="bi bi-search"></i>
-        </button>
-    </div>
+    
+    <!--Search box starts-->       
+<div class="wrapper">
+    <div class="search_box">
+         <div class="dropdown">
+            <div class="default_option"><i class='fas fa-map-marker-alt' style='font-size:20px;color:#E23744'></i></div>  
 
+        </div> 
+        <div class="search_field">
+            <i class="fas fa-search"></i>
+        <input type="text" class="input" placeholder="Search for restaurants, cuisine or a dish">
+          </div> 
     </div>
+</div>
+</div>
+    </div>
+    </div>
+    
+        
     
     <div class="container2">
         <h1 class="page_title">Popular localities in and &nbsp;<p class="city"></p>.</h1>
@@ -241,3 +244,25 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
