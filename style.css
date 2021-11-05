@@ -255,12 +255,20 @@ font-size: 20px;
     display: flex;
     padding-bottom: 50px;
 }
-.containerD-1,.containerD-2,.containerD-3,.containerD-4,.containerD-5{
-    padding-left: 10%;
-    
-}
 .containerD-1{
     padding-left: 0%;
+}
+.containerD-2{
+    padding-left: 9%;
+}
+.containerD-3{
+    padding-left: 11%;
+}
+.containerD-4{
+    padding-left: 13%;
+}
+.containerD-5{
+    padding-left: 16%;
 }
 
 .form{
