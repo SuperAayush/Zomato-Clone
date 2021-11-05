@@ -189,13 +189,13 @@ background-color:white;
 {
     padding-left:10%;
     font-size:13px;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 .container6-1
 {
     padding-left:0;
     font-size:13px;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 .container7{
     padding-left: 10%;
@@ -229,6 +229,8 @@ font-size: 20px;
     padding-left: 10%;
 }
 .containerB{
+    color: #9C9C9C;
+    font-size: 16px;
     padding-top: 1%;
     padding-left: 10%;
    padding-right: 10%;
@@ -243,6 +245,30 @@ font-size: 20px;
 .containerC{
     padding-top: 50px;
     padding-left: 10%;
+}
+.containerD{
+    color: #9C9C9C;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-left: 10%;
+   padding-right: 10%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.containerD-1{
+    padding-left: 0%;
+}
+.containerD-2{
+    padding-left: 9%;
+}
+.containerD-3{
+    padding-left: 11%;
+}
+.containerD-4{
+    padding-left: 13%;
+}
+.containerD-5{
+    padding-left: 16%;
 }
 
 .form{
@@ -355,11 +381,6 @@ font-size: 20px;
   color: grey;
   cursor: pointer;
 } 
-/* .fas fa-search{
-    margin-left: -50px;
-} */
-
-
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #9fa3b1;
@@ -370,6 +391,7 @@ font-size: 20px;
 :-ms-input-placeholder { /* IE 10+ */
   color: #9fa3b1;
 }
+
 /* .containerZ{
 display: flex;
 flex-direction: row;
@@ -446,3 +468,12 @@ border-radius: 10px;
 {
     margin-left: 2%;
 } */
+
+.icons-footer{
+    width:23px;
+}
+.l-space{
+    letter-spacing:2px;
+    font-weight: bold;
+}
+
