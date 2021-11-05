@@ -189,13 +189,13 @@ background-color:white;
 {
     padding-left:10%;
     font-size:13px;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 .container6-1
 {
     padding-left:0;
     font-size:13px;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 .container7{
     padding-left: 10%;
@@ -355,11 +355,6 @@ font-size: 20px;
   color: grey;
   cursor: pointer;
 } 
-/* .fas fa-search{
-    margin-left: -50px;
-} */
-
-
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #9fa3b1;
@@ -369,4 +364,12 @@ font-size: 20px;
 }
 :-ms-input-placeholder { /* IE 10+ */
   color: #9fa3b1;
+}
+
+.icons-footer{
+    width:23px;
+}
+.l-space{
+    letter-spacing:2px;
+    font-weight: bold;
 }
