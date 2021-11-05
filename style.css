@@ -370,3 +370,79 @@ font-size: 20px;
 :-ms-input-placeholder { /* IE 10+ */
   color: #9fa3b1;
 }
+/* .containerZ{
+display: flex;
+flex-direction: row;
+margin-top: 2%;
+} */
+  .pic_a,.pic_b, .pic_c, .pic_d{
+height: 200px;
+width: 280px;
+border-radius: 10px;
+} 
+.card{
+    margin-left:30%;
+    height: 280px;
+    width: 280px;
+    border-radius: 30px;
+    
+
+}
+.Container{
+    margin-top: 2%;
+}
+.ContainerZa{
+    margin-left:-13%;
+    flex-direction: row;
+}
+.ContainerZb{
+    margin-top:-20%;
+    margin-left:14%;
+}
+.ContainerZc{
+    margin-left: 40%;
+    margin-top:-18%;
+}
+.ContainerZd{
+    margin-left: 70%;
+    margin-top:-18%;
+}
+
+/* .ContainerZb
+{
+    margin-top: -0.0%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.ContainerZc{
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+} */
+/* .pic_a{
+    margin-left: 0.1%;
+    
+}
+.pic_b{
+    margin-left: 1%;
+}
+.pic_c{
+    margin-left: 1%;
+}
+.pic_d{
+    margin-left: 1%;
+} */
+
+/* .containerZ1{
+    margin-top: 8%;
+    margin-left: 10%;
+    
+    
+    
+}
+.containerZ2
+{
+    margin-left: 2%;
+} */
