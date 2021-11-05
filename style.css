@@ -229,6 +229,8 @@ font-size: 20px;
     padding-left: 10%;
 }
 .containerB{
+    color: #9C9C9C;
+    font-size: 16px;
     padding-top: 1%;
     padding-left: 10%;
    padding-right: 10%;
@@ -243,6 +245,22 @@ font-size: 20px;
 .containerC{
     padding-top: 50px;
     padding-left: 10%;
+}
+.containerD{
+    color: #9C9C9C;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-left: 10%;
+   padding-right: 10%;
+    display: flex;
+    padding-bottom: 50px;
+}
+.containerD-1,.containerD-2,.containerD-3,.containerD-4,.containerD-5{
+    padding-left: 10%;
+    
+}
+.containerD-1{
+    padding-left: 0%;
 }
 
 .form{
