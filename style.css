@@ -1,7 +1,7 @@
 *{
     margin: 0;
     outline: none;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 .pic{
     width: 100%;
@@ -134,9 +134,12 @@ background-color:white;
     margin-top: -1%;
     top:1%;
     text-decoration: none;
-    color: white;
+    color: rgb(255,255,255);
     font-family: 'Okra, Helvetica', sans-serif;
-
+     font-weight: lighter; 
+    font-size : 1.1rem; ; 
+    line-height: 1.9;
+    
 }
 .getapp{
     color:white;
@@ -144,8 +147,13 @@ background-color:white;
     text-decoration: none;
     font-style: bold;
     margin-top: -1%;
-     top: 1%; 
+     top: 1%;
+     font-weight: lighter;
+     font-size : 1.1rem; ; 
+    line-height: 1.9; 
+    
 }
+
 .restaurant{
     margin-left: 30%;
 }
@@ -162,6 +170,7 @@ background-color:white;
     display: flex;
     flex-direction: row;
     margin-left: 20%;
+    
     }
 .container5{
     height:20px;
@@ -477,5 +486,8 @@ border-radius: 10px;
     letter-spacing:2px;
     font-weight: bold;
     color:#000000;
+}
+.card{
+    text-decoration: none;
 }
 
