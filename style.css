@@ -180,9 +180,10 @@ background-color:white;
 .container6{
     padding-top:50px;
     padding-left: 10%;
-   padding-right: 10%;
+    padding-right: 10%;
     display: flex;
     font-weight: lighter;
+    color: #9C9C9C;
 }
 
 .container6-1,.container6-2,.container6-3,.container6-4,.container6-5
@@ -475,5 +476,6 @@ border-radius: 10px;
 .l-space{
     letter-spacing:2px;
     font-weight: bold;
+    color:#000000;
 }
 
