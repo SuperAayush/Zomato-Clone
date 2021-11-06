@@ -2,6 +2,7 @@
     margin: 0;
     outline: none;
     /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Okra, Helvetica', sans-serif;
 }
 .pic{
     width: 100%;
@@ -282,7 +283,6 @@ font-size: 20px;
 
 .form{
     margin-top: 10%;
-
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -295,8 +295,6 @@ font-size: 20px;
   margin-right: 10%;
 
 } 
-
-
 .wrapper .search_box{
   width: 700px;
   background: #fff;
@@ -407,37 +405,69 @@ flex-direction: row;
 margin-top: 2%;
 } */
   .pic_a,.pic_b, .pic_c, .pic_d{
-height: 200px;
+/* height: 200px; */
 width: 280px;
 border-radius: 10px;
+height: 200px;
+overflow: hidden;
 } 
 .card{
     margin-left:30%;
     height: 280px;
     width: 280px;
     border-radius: 30px;
-    
-
 }
 .Container{
     margin-top: 2%;
 }
 .ContainerZa{
-    margin-left:-13%;
+    margin-left:-28%;
     flex-direction: row;
 }
 .ContainerZb{
-    margin-top:-20%;
-    margin-left:14%;
+    margin-top:-18.5%;
+    margin-left:1%;
 }
 .ContainerZc{
-    margin-left: 40%;
-    margin-top:-18%;
+    margin-left: 30%;
+    margin-top:-18.5%;
 }
 .ContainerZd{
-    margin-left: 70%;
-    margin-top:-18%;
+    margin-left: 59%;
+    margin-top:-18.5%;
 }
+.ContainerZ1,.ContainerZ2,.ContainerZ3,.ContainerZ4{
+    font-size: 20px;
+    text-decoration: none;
+}
+.specials{
+    text-decoration: none;
+    color: white;
+}
+.ContainerY1,.ContainerY2,.ContainerY3,.ContainerY4{
+    text-decoration: none;
+}
+.ContainerYa{
+    margin-left:-29%;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.ContainerYb{
+    margin-top:-18.5%;
+    margin-left:5%;
+}
+.ContainerYc{
+    margin-left: 33%;
+    margin-top:-18.5%;
+}
+.ContainerYd{
+    margin-left: 61%;
+    margin-top:-18.5%;
+}
+.ContainerY{
+   margin-left: 20%;
+}
+
 
 /* .ContainerZb
 {
@@ -477,7 +507,6 @@ border-radius: 10px;
 {
     margin-left: 2%;
 } */
-
 .icons-footer{
     width:23px;
 }
@@ -485,7 +514,6 @@ border-radius: 10px;
     letter-spacing:2px;
     font-weight: bold;
 }
-.card{
-    text-decoration: none;
-}
+
+
 
