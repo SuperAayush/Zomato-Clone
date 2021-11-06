@@ -3,6 +3,7 @@
     outline: none;
     /* font-family: 'Montserrat', sans-serif; */
 }
+
 .pic{
     width: 100%;
     height: 500px;
@@ -21,6 +22,7 @@
    padding-top: 80px;
    padding-bottom: 80px;
    font-family: 'Open Sans', sans-serif;
+   line-height:2;
 }
 #logo{
     width: 300px;
@@ -187,11 +189,15 @@ background-color:white;
     flex-direction: row;
 }
 .container6{
-    padding-top:50px;
+    padding-top:40px;
     padding-left: 10%;
-   padding-right: 10%;
+    padding-right: 10%;
     display: flex;
-    font-weight: lighter;
+    font-weight: normal;
+    color: #9C9C9C;
+    font-family: 'Okra, Helvetica', sans-serif;
+    padding-bottom: 50px;
+
 }
 
 .container6-1,.container6-2,.container6-3,.container6-4,.container6-5
@@ -199,6 +205,7 @@ background-color:white;
     padding-left:10%;
     font-size:13px;
     padding-top: 30px;
+    line-height:2;
 }
 .container6-1
 {
@@ -208,10 +215,11 @@ background-color:white;
 }
 .container7{
     padding-left: 10%;
-   padding-right: 10%;
-   font-weight: lighter;
-   font-size:14px;
-   padding-bottom: 20px;
+    padding-right: 10%;
+    font-weight: lighter;
+    font-size:14px;
+    padding-bottom: 20px;
+    margin-top: 0;
 }
 
 
@@ -242,8 +250,9 @@ font-size: 20px;
     font-size: 16px;
     padding-top: 1%;
     padding-left: 10%;
-   padding-right: 10%;
+    padding-right: 10%;
     display: flex;
+    line-height:2.5;
 }
 .containerB-1,.containerB-2,.containerB-3,.containerB-4,.containerB-5{
     padding-left: 10%;
@@ -260,9 +269,10 @@ font-size: 20px;
     font-size: 16px;
     padding-top: 1%;
     padding-left: 10%;
-   padding-right: 10%;
+    padding-right: 10%;
     display: flex;
     padding-bottom: 50px;
+    line-height:2.5;
 }
 .containerD-1{
     padding-left: 0%;
@@ -484,6 +494,7 @@ border-radius: 10px;
 .l-space{
     letter-spacing:2px;
     font-weight: bold;
+    color:#000000;
 }
 .card{
     text-decoration: none;
