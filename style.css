@@ -151,22 +151,25 @@ background-color:white;
     margin-top: -1%;
      top: 1%;
      font-weight: lighter;
-     font-size : 1.1rem; ; 
+     font-size : 0.9rem; ; 
     line-height: 1.9; 
     
 }
 
 .restaurant{
-    margin-left: 30%;
+    padding-left: 10%;
+    margin-left: 32%;
 }
 .signup{
-    margin-right: 20%;
-    margin-left: -20%;
+    
+    margin-right: 13%;
+    margin-left: -0%;
 
 }
 .login{
-    margin-right: 10%;
-    margin-left: -10%;
+    
+    margin-right: 0%;
+    margin-left: 1%;
 }
 .container-fluid{
     display: flex;
