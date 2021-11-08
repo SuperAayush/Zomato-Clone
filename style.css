@@ -1,7 +1,6 @@
 *{
     margin: 0;
     outline: none;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Okra, Helvetica', sans-serif;
 }
 
@@ -127,6 +126,7 @@ font-weight: 60px;
 .container5{
     font-family: 'Paytone One', sans-serif;
     padding-left:20px;
+    display: flex;
 }
 .navbar-brand{
 color: white;
@@ -172,6 +172,23 @@ background-color:white;
     margin-right: 0%;
     margin-left: 1%;
 }
+
+.getapp:hover{
+    color: white;
+}
+
+.restaurant:hover{
+color: white;
+}
+
+.login:hover{
+    color: white;
+}
+
+.signup:hover{
+    color: white;
+}
+
 .container-fluid{
     display: flex;
     flex-direction: row;
@@ -199,7 +216,7 @@ background-color:white;
     display: flex;
     font-weight: normal;
     color: #9C9C9C;
-    font-family: 'Okra, Helvetica', sans-serif;
+    /* font-family: 'Okra, Helvetica', sans-serif; */
     padding-bottom: 50px;
 
 }
@@ -224,6 +241,7 @@ background-color:white;
     font-size:14px;
     padding-bottom: 20px;
     margin-top: 0;
+    color:#9C9C9C;
 }
 
 
@@ -529,5 +547,32 @@ overflow: hidden;
     color:#000000;
 }
 
+div.dropdown-multicol2{
+    width: 30em;
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 24%;
+  }
 
+.drop1{
+     margin-left: 51%;
+}
 
+.drop2{
+    margin-left:2%;
+}
+
+#language-globe{
+    height:18px;
+}
+
+#India{
+    height:25px;
+}
+
+.dropdown-item{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
