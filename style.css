@@ -406,6 +406,12 @@ font-size: 20px;
 :-ms-input-placeholder { /* IE 10+ */
   color: #9fa3b1;
 }
+.container3{
+    color: grey;
+}
+.Get{
+    color: black;
+}
 
 .pic_a,.pic_b, .pic_c, .pic_d{
 width: 100%;
@@ -559,4 +565,7 @@ div.dropdown-multicol2{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight:lighter;
+}
+.form-check-label{
+    padding-left: 0;
 }
