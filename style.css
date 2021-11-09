@@ -514,3 +514,44 @@ margin-left: 2%;
     color:#000000;
 }
 
+
+.order-cat {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin-bottom: 50px;
+}
+
+.order-cat .hover{
+	position: relative;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.order-cat .hover:hover {
+	transform: scale(1.05);
+}
+
+.order-cat img {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.order-cat .order-title-bg {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 10px 0 16px;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid #e8e8e8;
+	border-radius: 0 0 12px 12px;
+}
+
+.order-cat .order-title {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
