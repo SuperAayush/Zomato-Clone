@@ -3,6 +3,12 @@
     outline: none;
     font-family: 'Okra, Helvetica', sans-serif;
 }
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
 .pic{
     width: 100%;
@@ -146,7 +152,7 @@ background-color:white;
 .signup{
     
     margin-right: 13%;
-    margin-left: -0%;
+    margin-left: -0%; 
 
 }
 .login{
@@ -413,27 +419,7 @@ font-size: 20px;
     color: black;
 }
 
-.pic_a,.pic_b, .pic_c, .pic_d{
-width: 100%;
-border-radius: 10px;
-height: 100%;
 
-object-fit: cover;
-        transform: none;
-        opacity: 1;
-        will-change: transform, opacity;
-        border-radius: inherit;
-        filter: unset;
-        transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
-
-} 
-.pic_1,.pic_2,.pic_3,.pic_4{ 
-    width: 273px;
-border-radius: 10px;
-height: 400px;
-overflow: hidden;
-margin-bottom: 3px;
-}
 
 .icons-footer{
     width:23px;
@@ -445,97 +431,7 @@ margin-bottom: 3px;
 }
 
 
-.pic_a,.pic_b, .pic_c, .pic_d{
-    width: 280px;
-    border-radius: 10px;
-    height: 200px;
-    overflow: hidden;
-    object-fit: cover;
-    } 
-    .card{
-        margin-left:30%;
-        height: 280px;
-        width: 20%;
-        border-radius: 30px;
-    }
-    .Container{
-        margin-top: 2%;
-    }
-    .ContainerZa{
-        margin-left:-28%;
-        flex-direction: row;
-    }
-    .ContainerZb{
-        margin-top:-18.5%;
-        margin-left:1%;
-    }
-    .ContainerZc{
-        margin-left: 30%;
-        margin-top:-18.5%;
-    }
-    .ContainerZd{
-        margin-left: 59%;
-        margin-top:-18.5%;
-    }
-    .ContainerZ1,.ContainerZ2,.ContainerZ3,.ContainerZ4{
-        font-size: 20px;
-        text-decoration: none;
-    }
-    .specials{
-        text-decoration: none;
-        color: white;
-    }
-    .ContainerY1,.ContainerY2,.ContainerY3,.ContainerY4{
-        text-decoration: none;
-    }
-    .ContainerYa{
-        margin-left:-29%;
-        flex-direction: row;
-        margin-top: 2%;
-    }
-    .ContainerYb{
-        margin-top:-18.5%;
-        margin-left:5%;
-    }
-    .ContainerYc{
-        margin-left: 33%;
-        margin-top:-18.5%;
-    }
-    .ContainerYd{
-        margin-left: 61%;
-        margin-top:-18.5%;
-    }
-    .ContainerY{
-       margin-left: 20%;
-    }
-    
-    
-    
-    .pic_a{
-        margin-left: 0.1%;
-        
-    }
-    .pic_b{
-        margin-left: 1%;
-    }
-    .pic_c{
-        margin-left: 1%;
-    }
-    .pic_d{
-        margin-left: 1%;
-    } 
-    
-.containerZ1{
-        margin-top: 8%;
-        margin-left: 10%;
-        
-        
-        
-    }
-    .containerZ2
-    {
-        margin-left: 2%;
-    } 
+
 
 div.dropdown-multicol2{
     width: 30em;
@@ -569,3 +465,51 @@ div.dropdown-multicol2{
 .form-check-label{
     padding-left: 0;
 }
+#container1{
+    margin-top:2%;
+    margin-left:5%;
+}
+
+.card{
+    width:89%;
+
+    height:89%;
+    background-color: white;
+    /*  */
+margin-left: 2%;
+    border:10px; 
+    border-radius: 60px;
+    box-shadow: 1px 1px 10px #ccc;  
+    overflow: hidden;
+    /* transition: box-shadow 0.3s; */
+    margin-bottom: 10px;
+}
+.container{
+    margin-left:3%;
+
+}.row{
+    margin-left: 4%;
+    
+}
+.card:hover{
+    /* box-shadow: 1px 1px 10px #000; */
+    cursor:pointer;
+}
+.card-bottom{
+     position: absolute; 
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    margin-top: 160px;
+}
+.card img{
+    border-radius: 10px 10px;
+}
+.text-center{
+    font-size:20px;
+    font-style: bold;
+    margin-top: 5%;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+
