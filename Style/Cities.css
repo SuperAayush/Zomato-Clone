@@ -10,8 +10,88 @@
 {
     height:27px;
     padding-left: 10%;
+    padding-top: 2%;
+}
+.container4{
+    padding-top:40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    font-weight: normal;
+    color: #9C9C9C;
+    padding-bottom: 50px;
+}
+.container4-1,.container4-2,.container4-3,.container4-4,.container4-5
+{
+    padding-left:10%;
+    font-size:13px;
+    padding-top: 30px;
+    line-height:2;
+}
+.container4-1
+{
+    padding-left:0;
+    font-size:13px;
+    padding-top: 30px;
+}
+.container5{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: lighter;
+    font-size:14px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color:#9C9C9C;
+}
+.container3{
+    height:20px;
+    padding-left:144px; 
+    padding-top: 20px;
+}
+.container3,.container4,.container5{
+    background-color: #FCFCFC
+}
+#India{
+    height:25px;
+}
+.store-footer{
+    height: 40px;
+    margin-top: 10%;
+}
+.icons-footer{
+    width:23px;
+}
+.l-space{
+    letter-spacing:2px;
+    font-weight: bold;
+    color:#000000;
+}
+#language-globe{
+    height:18px;
+}
+.footer_logo{
+    height:30px;
+}
+.container3{
+    font-family: 'Paytone One', sans-serif;
+    padding-left:3px;
+    display: flex;
+}
+div.dropdown-multicol2{
+    width: 30em;
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 24%;
+  }
+
+.drop1{
+     margin-left: 51%;
 }
 
+.drop2{
+    margin-left:2%;
+}
 .container2
 {
     margin-top: 7%;
