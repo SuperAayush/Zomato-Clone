@@ -517,9 +517,13 @@ margin-left: 2%;
 
 .order-cat {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(4, 3fr);
 	grid-gap: 10px;
-	margin-bottom: 50px;
+	margin-left: 8%;
+    width:84%;
+    margin-top:1%;
+    margin-bottom:10%;
+    
 }
 
 .order-cat .hover{
@@ -533,7 +537,7 @@ margin-left: 2%;
 }
 
 .order-cat img {
-	width: 100%;
+	width: 98%;
 	border-radius: 12px;
 }
 
@@ -543,15 +547,136 @@ margin-left: 2%;
 	bottom: 0;
 	padding: 10px 0 16px;
 	background-color: #fff;
-	width: 100%;
+	width: 98%;
 	border: 1px solid #e8e8e8;
 	border-radius: 0 0 12px 12px;
+    height:26%;
+    
 }
 
 .order-cat .order-title {
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 19px;
+	font-weight: 500;
 	text-align: center;
+    /* margin-top: 3%; */
+    /* margin-top:8%; */
+    color:#4F4F4F;
+    
+}
+
+.collections {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.collections p{
+	font-size: 20px;
+}
+
+.collections a{
+	font-size: 16px;
+	color: #f57082;
+	text-decoration: none;
+}
+
+.collections .fa-caret-right{
+	margin-left: 10px;
+}
+
+.collection-grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 30px;
+	margin-bottom: 90px;
+    width:100%;
+    
+    
+} 
+/* .collection-box{
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin-bottom: 90px;
+    width:80%;
+} */
+
+ .collection-grid .collection-box { 
+	position: relative;
+    width:100%;
+    
+    /* height:130%; */
+}
+
+.collection-grid .collection-box img {
+	width: 107%;
+	border-radius: 8px;
+    height: 125%;
+    /* height: 120%; */
+   
+}
+
+.collection-grid .collection-box .collection-title {
+	position: absolute;
+	left: 0;
+	top: 98%;
+	padding: 10px 15px 2px 13px ;
+    
+}
+
+.collection-grid .collection-box .collection-title p .sports{
+	font-weight: 700;
+	color:white;
+    font-size:30px;
+    margin-bottom: 10%;
+}
+
+.collection-grid .collection-box .collection-title p {
+	color: #fff;
+    font-size: 15px;
+}
+
+/*Localities*/
+h1.local-title {
+	color: #363636;
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.locals-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 20px;
+	row-gap: 35px;
+}
+
+.locals-grid .local-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	font-size: 20px;
+	color: #1c1c1c;
+	border: 1px solid #e8e8e8;
+	border-radius: 8px;
+	box-shadow: 0 1.4px 2.8px rgba(28,28,28,0.08);
+	cursor: pointer;
+}
+
+.locals-grid .local-box:hover {
+	box-shadow: 0 1.4px 2.8px 2px rgba(28,28,28,0.08);
+}
+
+.local-box .fa-chevron-right {
+	font-size: 10px;
+}
+.container {
+	width: 90%;
+	max-width: 1150px;
+	margin: auto;
 }
 
 
