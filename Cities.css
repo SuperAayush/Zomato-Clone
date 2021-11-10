@@ -6,12 +6,11 @@
     font-weight: 300;
 }
 
-.footer_logo
-{
-    height:27px;
-    padding-left: 10%;
+.container1{
     padding-top: 2%;
+    display: flex;
 }
+
 .container4{
     padding-top:40px;
     padding-left: 10%;
@@ -69,9 +68,17 @@
 #language-globe{
     height:18px;
 }
-.footer_logo{
-    height:30px;
+
+.footer_logo1{
+    height:27px;
+    margin-left: 12%;
 }
+
+.footer_logo2{
+height:30px;
+margin-left:10%;
+}
+
 .container3{
     font-family: 'Paytone One', sans-serif;
     padding-left:3px;
@@ -92,6 +99,13 @@ div.dropdown-multicol2{
 .drop2{
     margin-left:2%;
 }
+
+.dropdown-item{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+
 .container2
 {
     margin-top: 7%;
@@ -116,3 +130,4 @@ div.dropdown-multicol2{
     white-space: nowrap;
     vertical-align: bottom;
 }
+
