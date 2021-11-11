@@ -20,6 +20,7 @@ html,body{
 .container2{
     padding-top: 20px;
     padding-bottom:50px;
+    
 }
 .container4{
    margin-left: 10%;
@@ -252,6 +253,7 @@ font-size: 20px;
 }
 .containerA{
     padding-left: 10%;
+    font-family: 'Open Sans', sans-serif;
 }
 .containerB{
     color: #9C9C9C;
@@ -271,6 +273,7 @@ font-size: 20px;
 .containerC{
     padding-top: 50px;
     padding-left: 10%;
+    font-family: 'Open Sans', sans-serif;
 }
 .containerD{
     color: #9C9C9C;
@@ -583,7 +586,7 @@ margin-left: 2%;
 
 .collections .fa-caret-right{
 	margin-left: 250px;
-    
+
 }
 
 .collection-grid {
@@ -611,7 +614,7 @@ margin-left: 2%;
 }
 
 .collection-grid .collection-box img {
-	width: 107%;
+    width: 103%;
 	border-radius: 8px;
     height: 125%;
     /* height: 120%; */
@@ -626,7 +629,7 @@ margin-left: 2%;
     
 }
 
-.collection-grid .collection-box .collection-title p .sports{
+.collection-grid .collection-box .collection-title {
 	font-weight: 700;
 	color:white;
     font-size:30px;
@@ -636,6 +639,9 @@ margin-left: 2%;
 .collection-grid .collection-box .collection-title p {
 	color: #fff;
     font-size: 15px;
+}
+.sports{
+    margin-top: -10%;
 }
 
 /*Localities*/
@@ -678,4 +684,6 @@ h1.local-title {
     margin-left:13.5%;
 }
 
-
+.container6 table {
+    width: max-content;
+}
