@@ -673,10 +673,8 @@ h1.local-title {
 .local-box .fa-chevron-right {
 	font-size: 10px;
 }
-.container {
-	width: 90%;
-	max-width: 1150px;
-	margin: auto;
+.containerz{
+    margin-left:13.5%;
 }
 
 
