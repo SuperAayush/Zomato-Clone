@@ -677,4 +677,6 @@ h1.local-title {
     margin-left:13.5%;
 }
 
-
+.container6 table {
+    width: max-content;
+}
