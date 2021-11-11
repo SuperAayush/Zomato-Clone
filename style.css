@@ -679,4 +679,6 @@ h1.local-title {
 	margin: auto;
 }
 
-
+.container6 table {
+    width: max-content;
+}
