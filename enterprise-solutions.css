@@ -1,0 +1,25 @@
+.container2 {
+    text-align: center;
+    align-content: space-between;
+}
+
+.image-section1 {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+.image-section2 {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    margin: 0 auto;
+}
