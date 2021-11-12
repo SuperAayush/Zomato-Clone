@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container5{
     font-family: 'Paytone One', sans-serif;
     padding-left:20px;
@@ -87,24 +88,54 @@ div.dropdown-multicol2{
     font-weight:lighter;
 =======
 *{
+=======
+* {
+>>>>>>> upstream/main
     margin: 0;
     outline: none;
 }
-.container3 p{
+
+.container2 {
+    text-align: center;
+    align-content: space-between;
+}
+
+.image-section1 {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+.image-section2 {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container3 p {
     color: rgb(28, 28, 28);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size:2rem;
-    font-weight:900;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
-.img3-1{
-height:250px;
+.img3-1 {
+    height: 250px;
 }
 
-.Recurring{
+.Recurring {
     padding-left: 50%;
-    padding-top:3%;
+    padding-top: 3%;
     display: flex;
 >>>>>>> upstream/main
 }
