@@ -238,6 +238,7 @@ color: white;
     height: 40px;
     margin-top: 10%;
 }
+
 .search-btn{
 width: 130px;
 background-color: red;
@@ -247,12 +248,15 @@ border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 font-size: 20px;
 }
+
 .popular{
     margin-top: 100px;
 }
+
 .containerA{
     padding-left: 10%;
 }
+
 .containerB{
     color: #9C9C9C;
     font-size: 16px;
@@ -265,9 +269,11 @@ font-size: 20px;
 .containerB-1,.containerB-2,.containerB-3,.containerB-4,.containerB-5{
     padding-left: 10%;
 }
+
 .containerB-1{
     padding-left: 0%;
 }
+
 .containerC{
     padding-top: 50px;
     padding-left: 10%;
