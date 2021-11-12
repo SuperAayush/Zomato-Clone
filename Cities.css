@@ -146,21 +146,21 @@ div.dropdown-multicol2{
       
   }
   .signup{
-    
-    margin-right:15%;
-    text-decoration: none;
-    font-size:20px;
-    font-weight: 5;
-
-    
-    text-decoration: none;
-    color: #1C1C1C;
-    /* margin-left: -0%;  */
-
+  margin-right:15%;
+  text-decoration: none;
+  font-size:20px;
+  
+  text-decoration: none;
+  }
+.signup,.login{
+  color:#9C9C9C;
+  font-weight: 100;
+ 
 }
+
 .login{
     text-decoration: none;
-    color: #1C1C1C;
+    
     font-size:20px;
     
     
