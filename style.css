@@ -121,7 +121,7 @@ color: white;
 top: 15%;
 background-color:white;
 }
-.login,.signup, .restaurant{
+.login-trigger,.signup, .restaurant{
     margin-top: -1%;
     top:1%;
     text-decoration: none;
@@ -155,11 +155,80 @@ background-color:white;
     margin-left: -0%; 
 
 }
-.login{
+.login-trigger{
     
     margin-right: 0%;
     margin-left: 1%;
+
 }
+h4 {
+    font-weight: bold;
+    color: #fff;
+  }
+  .close {
+    color: #fff;
+    transform: scale(1)
+  }
+  .modal-content {
+    font-weight: bold;
+    /* background: linear-gradient(to bottom right,#F87E7B,#B05574); */
+   
+  }
+  .form-control {
+    margin: 1em 0;
+  }
+  .form-control:hover, .form-control:focus {
+    box-shadow: none;  
+    border-color: #fff;
+  }
+  .phone-number, .password {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;  
+  }
+  .phone-number{
+
+      margin-top:10%;
+  }
+  .text-otp{
+      margin-top: 3%;
+      margin-left: 37.2%;
+  }
+  .text-otp:hover{
+      cursor: pointer;
+      margin-top: 50%;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #eee;  
+  }
+  .form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+  }
+  .login {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #FAB87F;
+    color: #FAB87F;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 50%;
+  }
+  .modal-content{
+      width:160%;
+      height:20%;
+      margin-top: 35%;
+  }
+  
+  .login:hover {
+    background: #fff;
+    color: #fff;
+  }
 
 .getapp:hover{
     color: white;
@@ -169,7 +238,7 @@ background-color:white;
 color: white;
 }
 
-.login:hover{
+.login-trigger:hover{
     color: white;
 }
 
