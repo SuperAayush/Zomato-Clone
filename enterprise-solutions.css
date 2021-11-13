@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .container5{
     font-family: 'Paytone One', sans-serif;
     padding-left:20px;
@@ -86,11 +84,9 @@ div.dropdown-multicol2{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight:lighter;
-=======
+}
+
 *{
-=======
-* {
->>>>>>> upstream/main
     margin: 0;
     outline: none;
 }
@@ -137,5 +133,4 @@ img {
     padding-left: 50%;
     padding-top: 3%;
     display: flex;
->>>>>>> upstream/main
 }
