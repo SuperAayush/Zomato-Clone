@@ -85,7 +85,11 @@ div.dropdown-multicol2{
     font-weight:lighter;
 }
 
+<<<<<<< HEAD
 {
+=======
+*{
+>>>>>>> upstream/main
     margin: 0;
     outline: none;
 }
@@ -132,4 +136,8 @@ img {
     padding-left: 50%;
     padding-top: 3%;
     display: flex;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
