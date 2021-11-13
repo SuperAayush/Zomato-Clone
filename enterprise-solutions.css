@@ -1,123 +1,145 @@
-.container5{
+.container5 {
     font-family: 'Paytone One', sans-serif;
-    padding-left:20px;
+    padding-left: 20px;
     display: flex;
 }
-.container5{
-    height:20px;
-    padding-left:144px; 
+
+.container5 {
+    height: 20px;
+    padding-left: 144px;
     padding-top: 20px;
 }
-.container5,.container6,.container7{
+
+.container5,
+.container6,
+.container7 {
     background-color: #FCFCFC
 }
-.container6{
-    padding-top:40px;
+
+.container6 {
+    padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     font-weight: normal;
     color: #9C9C9C;
     padding-bottom: 50px;
-
 }
 
-.container6-1,.container6-2,.container6-3,.container6-4,.container6-5
-{
-    padding-left:10%;
-    font-size:13px;
+.container6-1,
+.container6-2,
+.container6-3,
+.container6-4,
+.container6-5 {
+    padding-left: 10%;
+    font-size: 13px;
     padding-top: 30px;
-    line-height:2;
+    line-height: 2;
 }
-.container6-1
-{
-    padding-left:0;
-    font-size:13px;
+
+.container6-1 {
+    padding-left: 0;
+    font-size: 13px;
     padding-top: 30px;
 }
-.container7{
+
+.container7 {
     padding-left: 10%;
     padding-right: 10%;
     font-weight: lighter;
-    font-size:14px;
+    font-size: 14px;
     padding-bottom: 20px;
     margin-top: 0;
-    color:#9C9C9C;
+    color: #9C9C9C;
 }
-.footer_logo{
-    height:30px;
-    margin-left:10%;
+
+.footer_logo {
+    height: 30px;
+    margin-left: 10%;
 }
-.store-footer{
+
+.store-footer {
     height: 40px;
     margin-top: 10%;
 }
-.icons-footer{
-    width:23px;
+
+.icons-footer {
+    width: 23px;
 }
-.l-space{
-    letter-spacing:2px;
+
+.l-space {
+    letter-spacing: 2px;
     font-weight: bold;
-    color:#000000;
+    color: #000000;
 }
-.drop1{
+
+.drop1 {
     margin-left: 51%;
 }
 
-.drop2{
-   margin-left:2%;
-}
-div.dropdown-multicol2{
-    width: 30em;
-  }
-  div.dropdown-multicol2>div.dropdown-col{
-    display:inline-block;
-    width: 24%;
-  }
-  #India{
-    height:25px;
-}
-#language-globe{
-    height:18px;
-}
-.dropdown-item{
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:lighter;
+.drop2 {
+    margin-left: 2%;
 }
 
-*{
+div.dropdown-multicol2 {
+    width: 30em;
+}
+
+div.dropdown-multicol2>div.dropdown-col {
+    display: inline-block;
+    width: 24%;
+}
+
+#India {
+    height: 25px;
+}
+
+#language-globe {
+    height: 18px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+* {
     margin: 0;
     outline: none;
 }
 
 .container2 {
     text-align: center;
-    align-content: space-between;
-    margin: 8% 0%
+    align-items: space-between;
+    margin: 7% auto;
+    font-family: 'Lato', sans-serif;
 }
 
+
+}
+.part {
+    margin: 4% auto;
+}
 .image-section1 {
     display: flex;
     align-items: center;
     height: 30%;
-    width: 60%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 4% auto;
 }
-
 img {
-    height: 40%;
-    width: 40%;
+    height: 150px;
+    width: 125px;
+    padding: 0 0 25px 0;
 }
-
 .image-section2 {
     display: flex;
     align-items: center;
     height: 30%;
-    width: 60%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 4% auto;
 }
-
 .container3 p {
     color: rgb(28, 28, 28);
     text-align: center;
@@ -125,11 +147,9 @@ img {
     font-size: 2rem;
     font-weight: 900;
 }
-
 .img3-1 {
     height: 250px;
 }
-
 .Recurring {
     padding-left: 50%;
     padding-top: 3%;
