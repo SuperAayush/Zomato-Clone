@@ -782,3 +782,12 @@ h1.local-title {
 .container6 table {
     width: max-content;
 }
+.enterprises{
+    margin-top: 12%;
+    letter-spacing: 2px;  
+    color: black; 
+}
+.ent{
+    letter-spacing: 0px;
+    color: #9C9C9C;
+}

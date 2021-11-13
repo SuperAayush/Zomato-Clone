@@ -5,8 +5,7 @@
     height:20px;
     padding-left:144px; 
     padding-top: 20px;
-}
-    
+}   
 .container5,.container6,.container7{
     background-color: #FCFCFC
 }
@@ -84,12 +83,7 @@ div.dropdown-multicol2{
     font-family: 'Open Sans', sans-serif;
     font-weight:lighter;
 }
-
-<<<<<<< HEAD
-{
-=======
 *{
->>>>>>> upstream/main
     margin: 0;
     outline: none;
 }
@@ -136,8 +130,13 @@ img {
     padding-left: 50%;
     padding-top: 3%;
     display: flex;
-<<<<<<< HEAD
 }
-=======
+.enterprises{
+    margin-top: 12%;
+    letter-spacing: 2px;  
+    color: black; 
 }
->>>>>>> upstream/main
+.ent{
+    letter-spacing: 0px;
+    color: #9C9C9C;
+  }
