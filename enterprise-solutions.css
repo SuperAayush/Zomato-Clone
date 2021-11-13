@@ -1,4 +1,92 @@
-* {
+.container5{
+    font-family: 'Paytone One', sans-serif;
+    padding-left:20px;
+    display: flex;
+}
+.container5{
+    height:20px;
+    padding-left:144px; 
+    padding-top: 20px;
+}
+.container5,.container6,.container7{
+    background-color: #FCFCFC
+}
+.container6{
+    padding-top:40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    font-weight: normal;
+    color: #9C9C9C;
+    padding-bottom: 50px;
+
+}
+
+.container6-1,.container6-2,.container6-3,.container6-4,.container6-5
+{
+    padding-left:10%;
+    font-size:13px;
+    padding-top: 30px;
+    line-height:2;
+}
+.container6-1
+{
+    padding-left:0;
+    font-size:13px;
+    padding-top: 30px;
+}
+.container7{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: lighter;
+    font-size:14px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color:#9C9C9C;
+}
+.footer_logo{
+    height:30px;
+    margin-left:10%;
+}
+.store-footer{
+    height: 40px;
+    margin-top: 10%;
+}
+.icons-footer{
+    width:23px;
+}
+.l-space{
+    letter-spacing:2px;
+    font-weight: bold;
+    color:#000000;
+}
+.drop1{
+    margin-left: 51%;
+}
+
+.drop2{
+   margin-left:2%;
+}
+div.dropdown-multicol2{
+    width: 30em;
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 24%;
+  }
+  #India{
+    height:25px;
+}
+#language-globe{
+    height:18px;
+}
+.dropdown-item{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+}
+
+*{
     margin: 0;
     outline: none;
 }
