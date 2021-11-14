@@ -1,31 +1,5 @@
-.container5 {
-    font-family: 'Paytone One', sans-serif;
-    padding-left: 20px;
-    display: flex;
-}
-
-.container5 {
-    height: 20px;
-    padding-left: 144px;
-    padding-top: 20px;
-}
-
-.container5,
-.container6,
-.container7 {
-    height: 20px;
-    padding-left: 144px;
-    padding-top: 20px;
-}
-
-.container5,
-.container6,
-.container7 {
-    background-color: #FCFCFC
-}
-
-.container6 {
-    padding-top: 40px;
+.container7{
+    padding-top:40px;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -33,83 +7,90 @@
     color: #9C9C9C;
     padding-bottom: 50px;
 }
-
-.container6-1,
-.container6-2,
-.container6-3,
-.container6-4,
-.container6-5 {
-    padding-left: 10%;
-    font-size: 13px;
+.container7-1,.container7-2,.container7-3,.container7-4,.container7-5
+{
+    padding-left:10%;
+    font-size:13px;
     padding-top: 30px;
-    line-height: 2;
+    line-height:2;
 }
-
-.container6-1 {
-    padding-left: 0;
-    font-size: 13px;
+.container7-1
+{
+    padding-left:0;
+    font-size:13px;
     padding-top: 30px;
 }
-
-.container7 {
+.container8{
     padding-left: 10%;
     padding-right: 10%;
     font-weight: lighter;
-    font-size: 14px;
+    font-size:14px;
     padding-bottom: 20px;
     margin-top: 0;
-    color: #9C9C9C;
+    color:#9C9C9C;
 }
-
-.footer_logo {
-    height: 30px;
-    width: 150px;
+.container6{
+    height:20px;
+    padding-left:144px; 
+    padding-top: 20px;
 }
-
-.store-footer {
+.container6,.container7,.container8{
+    background-color: #FCFCFC
+}
+#India{
+    height:25px;
+}
+.store-footer{
     height: 40px;
     margin-top: 10%;
 }
-
-.icons-footer {
-    width: 23px;
+.icons-footer{
+    width:23px;
 }
-
-.l-space {
-    letter-spacing: 2px;
+.l-space{
+    letter-spacing:2px;
     font-weight: bold;
-    color: #000000;
+    color:#000000;
+}
+#language-globe{
+    height:18px;
 }
 
-.drop1 {
-    margin-left: 51%;
+.footer_logo1{
+    height:27px;
+    margin-left: 12%;
 }
 
-.drop2 {
-    margin-left: 2%;
+.footer_logo2{
+height:30px;
+margin-left:10%;
 }
 
-div.dropdown-multicol2 {
+.container6{
+    font-family: 'Paytone One', sans-serif;
+    padding-left:3px;
+    display: flex;
+}
+div.dropdown-multicol2{
     width: 30em;
-}
-
-div.dropdown-multicol2>div.dropdown-col {
-    display: inline-block;
+  }
+  div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
     width: 24%;
+  }
+
+.drop1{
+     margin-left: 46%;
 }
 
-#India {
-    height: 25px;
+.drop2{
+    margin-left:2%;
 }
 
-#language-globe {
-    height: 18px;
-}
-
-.dropdown-item {
+.dropdown-item{
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    font-weight:lighter;
 }
 
 * {
@@ -119,45 +100,71 @@ div.dropdown-multicol2>div.dropdown-col {
 
 .container2 {
     text-align: center;
+    align-content: center;
     align-items: space-between;
     margin: 7% auto;
+    padding: auto;
     font-family: 'Lato', sans-serif;
 }
+<<<<<<< HEAD
+=======
+
+.imgg {
+    align-items: center;
+    align-content: center;
+}
+
+>>>>>>> upstream/main
 .part {
+    align-items: center;
     margin: 4% auto;
 }
-.image-section1 {
+
+.image-section {
     display: flex;
     align-items: center;
     height: 30%;
     width: 65%;
     margin: 4% auto;
+    padding: 1% auto;
+    justify-content: center;
 }
-img {
+
+.image-c2 {
     height: 150px;
     width: 125px;
     padding: 0 0 25px 0;
 }
-.image-section2 {
-    display: flex;
-    align-items: center;
-    height: 30%;
-    width: 65%;
-    margin: 4% auto;
+
+.p {
+    text-align: center;
 }
+
+.para {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 14%;
+}
+
 .container3 {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .container3 h1 {
     color: rgb(28, 28, 28);
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
+
 .img3-1 {
     height: 250px;
     width: 400px;
 }
+
 .Recurring,
 .Celebration,
 .Corporate,
@@ -166,22 +173,59 @@ img {
     display: flex;
     margin-top: 3%;
 }
+
 .r-1 {
     margin-top: 4%;
     margin-left: 4%;
     width: 400px;
 }
+
 .r-2 {
     width: 400px;
     margin-top: 4%;
     margin-right: 4%;
 }
+
 .enterprises {
     margin-top: 12%;
     letter-spacing: 2px;
     color: black;
 }
+
 .ent {
     letter-spacing: 0px;
     color: #9C9C9C;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.images-4 {
+    display: flex;
+    align-items: center;
+    margin: 5% auto;
+    justify-content: space-between;
+}
+
+.container4 {
+    width: 60%;
+    margin: 10% auto;
+}
+
+.img4 {
+    height: 55px;
+    width: 150px;
+}
+
+.round {
+    border-radius: 50%;
+    text-decoration: none;
+    width: 100px;
+}
+
+.but {
+    height: 20px;
+    width: 20px;
 }
