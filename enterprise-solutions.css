@@ -7,6 +7,48 @@
     color: #9C9C9C;
     padding-bottom: 50px;
 }
+.container1{
+    width:100%;
+}
+.pic{
+    width:100%;
+    height: 550px;
+}
+
+.logo{
+    margin-top: -60%;
+    height:40px;
+    margin-left: 15%;
+    
+}
+.heading{
+    color: #F8F8F8;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -14%;
+    font-style: bold;
+    margin-left: -10%;
+
+}
+.fa{
+    margin-left: 6%;
+}
+.heading1{
+    margin-left: 21%;
+    color: #F8F8F8;
+    font-size: 28px;
+    margin-top: -1%;
+}
+.button{
+    background-color: #E23744;
+    width:10%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #F8F8F8;
+    margin-left: -1.7%;
+}
+
 .container7-1,.container7-2,.container7-3,.container7-4,.container7-5
 {
     padding-left:10%;
