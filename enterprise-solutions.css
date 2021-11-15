@@ -8,6 +8,51 @@
     padding-bottom: 50px;
 }
 
+.container1 {
+    width: 100%;
+}
+
+.pic {
+    width: 100%;
+    height: 550px;
+}
+
+.logo {
+    margin-top: -60%;
+    height: 40px;
+    margin-left: 15%;
+}
+
+.heading {
+    color: #F8F8F8;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -14%;
+    font-style: bold;
+    margin-left: -10%;
+}
+
+.fa {
+    margin-left: 6%;
+}
+
+.heading1 {
+    margin-left: 21%;
+    color: #F8F8F8;
+    font-size: 28px;
+    margin-top: -1%;
+}
+
+.button {
+    background-color: #E23744;
+    width: 10%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: #F8F8F8;
+    margin-left: -1.7%;
+}
+
 .container7-1,
 .container7-2,
 .container7-3,
@@ -123,11 +168,6 @@ div.dropdown-multicol2>div.dropdown-col {
     font-family: 'Lato', sans-serif;
 }
 
-.imgg {
-    align-items: center;
-    align-content: center;
-}
-
 .part {
     align-items: center;
     margin: 4% auto;
@@ -141,39 +181,6 @@ div.dropdown-multicol2>div.dropdown-col {
     margin: 4% auto;
     padding: 1% auto;
     justify-content: center;
-}
-
-.heading {
-    text-align: center;
-    width: 100%;
-}
-
-.images-4 {
-    display: flex;
-    align-items: center;
-    margin: 5% auto;
-    justify-content: space-between;
-}
-
-.container4 {
-    width: 60%;
-    margin: 10% auto;
-}
-
-.img4 {
-    height: 55px;
-    width: 150px;
-}
-
-.round {
-    border-radius: 50%;
-    text-decoration: none;
-    width: 100px;
-}
-
-.but {
-    height: 20px;
-    width: 20px;
 }
 
 .image-c2 {
@@ -193,6 +200,11 @@ div.dropdown-multicol2>div.dropdown-col {
     justify-content: center;
     display: flex;
     margin-left: 14%;
+}
+
+.container3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .container3 h1 {
@@ -255,6 +267,11 @@ div.dropdown-multicol2>div.dropdown-col {
     margin: 10% auto;
 }
 
+.img4 {
+    height: 55px;
+    width: 150px;
+}
+
 .round {
     border-radius: 50%;
     text-decoration: none;
@@ -264,6 +281,42 @@ div.dropdown-multicol2>div.dropdown-col {
 .but {
     height: 20px;
     width: 20px;
+}
+
+.container4 {
+    display: flex;
+    background-image: url(./Images/enter-container4.webp);
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-group {
+    padding-bottom: 7%;
+}
+
+.card {
+    width: 30%;
+    margin-left: 1.5%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    border: #FCFCFC;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1.5%;
+}
+
+.flexy {
+    width: 28%;
+    margin-left: 21%;
+    margin-top: 12%;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.please {
+    padding-top: 2%;
 }
 
 .slid {
