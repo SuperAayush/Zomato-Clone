@@ -17,6 +17,7 @@ html,body{
     width: 100%;
 }
 
+
 .container2{
     padding-top: 20px;
     padding-bottom:50px;
@@ -171,7 +172,7 @@ h4 {
   }
   .modal-content {
     font-weight: bold;
-    /* background: linear-gradient(to bottom right,#F87E7B,#B05574); */
+    
    
   }
   .form-control {
@@ -627,7 +628,9 @@ margin-left: 2%;
 }
 #SeeMore{
     color:#000000;
-}
+    text-decoration: none;
+    }
+
 
 
 .order-cat {
