@@ -1,0 +1,7 @@
+.container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides {display: none;}
+img {vertical-align: middle;}
