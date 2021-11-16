@@ -318,6 +318,40 @@ div.dropdown-multicol2>div.dropdown-col {
 .please {
     padding-top: 2%;
 }
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #363636;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 20%;
+    font-weight: 250;
+  }
+.button1{
+    background-color: #E23744;
+    margin-right: 23%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.82;
+    transition: 0.3s;
+    width: 9.5%;
+    height: 45px;
+}
+.button1:hover{
+    opacity: 1.3;
+}
+  
 
 .slid {
     height: 55px;
