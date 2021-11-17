@@ -52,6 +52,9 @@
     color: #F8F8F8;
     margin-left: -1.7%;
 }
+.fa{
+    transition: transform 0.4s ease 0s;
+}
 
 .container7-1,
 .container7-2,
