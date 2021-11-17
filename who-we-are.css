@@ -1,4 +1,5 @@
 .container4{
+    
     padding-top: 5%;
     padding-left: 13%;
     padding-right: 13%;
@@ -7,15 +8,30 @@
     margin-top: 4%;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .images{
     padding-left: 13%; 
     padding-right: 13%;
 }
 .pic1{
-    width: 65%;
-    height: 10%;
+    width: 63%;
+    height: 370px;
+    border-radius: 5px;
+}
+.pic2{
+    width: 36%;
+    height: 178px;
+    margin-top: -17.5%;
+    padding-left: 0.8%;
+    border-radius: 3%;
+}
+.pic3{
+    width: 35.5%;
+    height: 184px;
+    border-radius: 3%;
+    margin-left: 64.2%;
+    margin-top: -19%;
 }
 .container2 {
     max-width: 1000px;
