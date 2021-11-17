@@ -1,0 +1,40 @@
+        .container5 {
+            width: 75%;
+            margin: 7% auto;
+        }
+        
+        .line {
+            color: #fc0909;
+            width: 10rem;
+            border: 3px solid;
+        }
+        
+        .heading {
+            font-size: 45px;
+        }
+        
+        .images5 {
+            display: flex;
+            margin-top: 5%;
+            align-content: space-between;
+        }
+        
+        .image5 {
+            width: 17rem;
+            height: 20rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        
+        .Icons5 {
+            width: 20px;
+            height: 20px;
+            margin-right: 1rem;
+        }
+        
+        .T-Icons5 {
+            width: 30px;
+            height: 20px;
+            margin-right: 1rem;
+        }
