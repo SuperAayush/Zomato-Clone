@@ -66,17 +66,20 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+.next{
+    margin-left: 116%;
+}
 
 
-/* Position the "next button" to the right */
+
 
 .next {
-    right: 0;
+    
     border-radius: 3px 0 0 3px;
 }
 
 
-/* On hover, add a black background color with a little bit see-through */
+
 
 .prev:hover,
 .next:hover {
@@ -84,7 +87,7 @@
 }
 
 
-/* Caption text */
+
 
 .text {
     color: #f2f2f2;
@@ -97,7 +100,6 @@
 }
 
 
-/* Number text (1/3 etc) */
 
 .numbertext {
     color: #f2f2f2;
@@ -108,7 +110,6 @@
 }
 
 
-/* The dots/bullets/indicators */
 
 .dot {
     cursor: pointer;
@@ -127,7 +128,7 @@
 }
 
 
-/* Fading animation */
+
 
 .fade {
     -webkit-animation-name: fade;
@@ -154,6 +155,44 @@
     }
 }
 
+<<<<<<< HEAD
+
+.para{
+font-size: 18px;
+line-height: 1.5;
+font-weight: 350;
+color: rgb(54, 54, 54);
+}
+.para{
+    margin-top: 4%;
+}
+.who{
+border-bottom-style: solid;
+border-bottom-width: 4px;
+border-color: #EE556A;
+padding-bottom: 1%;
+}
+.content{
+    width: 89%;
+}
+.container3{
+    margin-top: 2%;
+    width:36%;
+    margin-left: 10%;
+    display:inline-grid;
+}
+.snap1{
+    margin-left: 100%;
+     display:inline-grid;
+    margin-top: -70%;
+}
+.writing{
+    
+    font-size: 50px;
+    font-weight: 600;
+}
+
+=======
 .conatainer3-a {
     width: 74%;
     margin: 8% auto;
@@ -187,6 +226,7 @@
 .links3b:hover {
     color: black;
 }
+>>>>>>> upstream/main
 
 .container5 {
     width: 80%;
