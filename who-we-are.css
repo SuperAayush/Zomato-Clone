@@ -1,5 +1,5 @@
 .container4 {
-    padding-top: 5%;
+    margin-top: -7%;
     padding-left: 13%;
     padding-right: 13%;
 }
@@ -39,21 +39,17 @@
 }
 
 .container2 {
-    max-width: 1000px; 
-    position: relative; 
+    max-width: 1000px;
+    position: relative;
     margin-top: 60%;
     margin-left: 10%;
 }
 
 .image {
-    max-width: 1000px; 
+    max-width: 1000px;
     position: relative;
     margin-top: 20%;
 }
-
-
-
-
 
 .prev,
 .next {
@@ -158,6 +154,40 @@
     }
 }
 
+.conatainer3-a {
+    width: 74%;
+    margin: 8% auto;
+}
+
+.images3-a {
+    display: flex;
+    margin: 3% auto;
+}
+
+.image3a {
+    width: 23rem;
+    height: 14rem;
+    margin-right: 7px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.links3a {
+    text-decoration: none;
+    color: rgb(201, 192, 192);
+    font-size: smaller;
+    margin-top: 3%;
+}
+
+.links3b {
+    text-decoration: none;
+    color: black;
+}
+
+.links3b:hover {
+    color: black;
+}
+
 .container5 {
     width: 80%;
     margin: 7% auto;
@@ -233,7 +263,6 @@
     padding-right: 13%;
 }
 
-
 .pic4 {
     width: 35.5%;
     height: 184px;
@@ -255,8 +284,6 @@
     margin-left: 1%;
     margin-top: -16.5%;
 }
-
-
 
 .left {
     margin-top: -51%;
@@ -296,13 +323,7 @@
     font-weight: 600;
     margin-left: 20%;
     margin-top: -3%;
-
-  
- 
-
 }
-
-
 
 .container5 {
     width: 75%;
