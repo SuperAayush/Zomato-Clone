@@ -337,7 +337,7 @@ padding-bottom: 1%;
 
 .who_we_are {
     margin-left: 0.5%;
-    text-decoration:  underline;
+    
 }
 
 .Careers {
@@ -354,17 +354,18 @@ padding-bottom: 1%;
     font-weight: 400;
 }
 .who_we_are{
+    text-decoration: none;
     color: #F8F8F8;
     font-size: 20px;
     margin-top: -3%;
     font-weight: 400;
+    border-bottom-style: solid;
+border-bottom-width: 2px;
+border-color: #F8F8F8;
+
 }
 
 .happy {
-    /* font-size: 60px;
-    margin-left: 1%;
-    margin-bottom: -3%;
-    font-weight: 600; */
     position: absolute;
     font-size: 60px;
     font-weight: 600;
