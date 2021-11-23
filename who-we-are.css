@@ -197,7 +197,7 @@ padding-bottom: 1%;
     width: 89%;
 }
 .container3{
-    margin-top: 2%;
+    margin-top: 3%;
     width:36%;
     margin-left: 10%;
     display:inline-grid;
@@ -205,7 +205,7 @@ padding-bottom: 1%;
 .snap1{
     margin-left: 100%;
      display:inline-grid;
-    margin-top: -70%;
+    margin-top: -64%;
 }
 .writing{
     
@@ -335,6 +335,7 @@ padding-bottom: 1%;
 
 .who_we_are {
     margin-left: 0.5%;
+    
 }
 
 .Careers {
@@ -342,20 +343,27 @@ padding-bottom: 1%;
 }
 
 .Home,
-.Careers,
-.who_we_are {
+.Careers
+{
     text-decoration: none;
     color: #F8F8F8;
     font-size: 20px;
     margin-top: -3%;
     font-weight: 400;
 }
+.who_we_are{
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 20px;
+    margin-top: -3%;
+    font-weight: 400;
+    border-bottom-style: solid;
+border-bottom-width: 2px;
+border-color: #F8F8F8;
+
+}
 
 .happy {
-    /* font-size: 60px;
-    margin-left: 1%;
-    margin-bottom: -3%;
-    font-weight: 600; */
     position: absolute;
     font-size: 60px;
     font-weight: 600;
