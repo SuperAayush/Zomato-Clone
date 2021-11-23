@@ -37,6 +37,27 @@
     margin-left: 64.2%;
     margin-top: -19%;
 }
+.pic4 {
+    width: 35.5%;
+    height: 184px;
+    border-radius: 3%;
+    margin-top: -1%;
+}
+
+.pic5 {
+    width: 35.5%;
+    height: 184px;
+    border-radius: 3%;
+    margin-top: 1%;
+}
+
+.pic6 {
+    width: 63%;
+    height: 377px;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-top: -16.5%;
+}
 
 .container2 {
     max-width: 1000px;
@@ -302,29 +323,6 @@ padding-bottom: 1%;
     padding-left: 13%;
     padding-right: 13%;
 }
-
-.pic4 {
-    width: 35.5%;
-    height: 184px;
-    border-radius: 3%;
-    margin-top: -1%;
-}
-
-.pic5 {
-    width: 35.5%;
-    height: 184px;
-    border-radius: 3%;
-    margin-top: 1%;
-}
-
-.pic6 {
-    width: 63%;
-    height: 377px;
-    border-radius: 5px;
-    margin-left: 1%;
-    margin-top: -16.5%;
-}
-
 .left {
     margin-top: -51%;
     margin-left: 15%;
