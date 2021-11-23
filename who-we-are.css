@@ -155,7 +155,6 @@
     }
 }
 
-<<<<<<< HEAD
 
 .para{
 font-size: 18px;
@@ -176,7 +175,7 @@ padding-bottom: 1%;
     width: 89%;
 }
 .container3{
-    margin-top: 2%;
+    margin-top: 3%;
     width:36%;
     margin-left: 10%;
     display:inline-grid;
@@ -184,7 +183,7 @@ padding-bottom: 1%;
 .snap1{
     margin-left: 100%;
      display:inline-grid;
-    margin-top: -70%;
+    margin-top: -64%;
 }
 .writing{
     
@@ -192,7 +191,6 @@ padding-bottom: 1%;
     font-weight: 600;
 }
 
-=======
 .conatainer3-a {
     width: 74%;
     margin: 8% auto;
@@ -226,7 +224,6 @@ padding-bottom: 1%;
 .links3b:hover {
     color: black;
 }
->>>>>>> upstream/main
 
 .container5 {
     width: 80%;
@@ -337,6 +334,7 @@ padding-bottom: 1%;
 
 .who_we_are {
     margin-left: 0.5%;
+    text-decoration:  underline;
 }
 
 .Careers {
@@ -344,9 +342,15 @@ padding-bottom: 1%;
 }
 
 .Home,
-.Careers,
-.who_we_are {
+.Careers
+{
     text-decoration: none;
+    color: #F8F8F8;
+    font-size: 20px;
+    margin-top: -3%;
+    font-weight: 400;
+}
+.who_we_are{
     color: #F8F8F8;
     font-size: 20px;
     margin-top: -3%;
