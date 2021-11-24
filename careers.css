@@ -1,0 +1,41 @@
+.container2{
+    display: flex;
+    padding-left: 20%;
+    padding-top: 5%;
+    margin-right: 25%;
+}
+.image1{
+    
+    border-radius: 2%;
+    height: 230px;
+    width: 450px;
+}
+.text{
+    margin-top: 4%;
+    padding-left: 3%;
+}
+.para{
+    font-size: larger;
+}
+.buttons{
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.button1{
+    background-color: #F4F4F4;
+    border: #F4F4F4;
+    color: #FF7E8B;
+   
+}
+.button2{
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #F4F4F4;
+    border: #F4F4F4;
+    color: #FF7E8B;
+}
+.button3{
+    background-color: #F4F4F4;
+    border: #F4F4F4;
+    color: #FF7E8B;
+}
