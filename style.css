@@ -710,27 +710,13 @@ margin-left: 2%;
     
 }
 
-
-/* .collections .fa-caret-right{
-	/* margin-left: 250px; */
-    /* padding-right:20%;
-    margin-left:103%;
-  
-   padding-top: 3%;
-    
-    display: flex;
-
-} */ 
-
 .collection-grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-gap: 30px;
 	margin-bottom: 90px;
     width:100%;
-    
-    
-} 
+}
 /* .collection-box{
     display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -830,7 +816,6 @@ h1.local-title {
     color: #9C9C9C;
     text-decoration: none;
 }
-
 #ent:hover{
     color: black;
 }

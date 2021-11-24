@@ -1,0 +1,122 @@
+.container5{
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    font-weight: normal;
+    color: #9C9C9C;
+    padding-bottom: 50px;
+}
+
+
+
+.container5-1,
+.container5-2,
+.container5-3,
+.container5-4,
+.container5-5 {
+    padding-left: 10%;
+    font-size: 13px;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.container5-1 {
+    padding-left: 0;
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.container6 {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color: #9C9C9C;
+}
+
+.container4 {
+    height: 20px;
+    padding-left: 144px;
+    padding-top: 20px;
+    
+}
+
+.container4,
+.container5,
+.container6 {
+    background-color: #FCFCFC;
+}
+
+#India {
+    height: 25px;
+}
+
+.store-footer {
+    height: 40px;
+    margin-top: 10%;
+}
+
+.icons-footer {
+    width: 23px;
+}
+
+.l-space {
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#language-globe {
+    height: 18px;
+}
+
+.footer_logo1 {
+    height: 27px;
+    margin-left: 12%;
+}
+
+.footer_logo2 {
+    height: 30px;
+    margin-left: 10%;
+}
+
+.container4{
+    font-family: 'Paytone One', sans-serif;
+    padding-left: 3px;
+    display: flex;
+}
+
+div.dropdown-multicol2 {
+    width: 30em;
+}
+
+div.dropdown-multicol2>div.dropdown-col {
+    display: inline-block;
+    width: 24%;
+}
+
+.drop1 {
+    margin-left: 46%;
+}
+
+.drop2 {
+    margin-left: 2%;
+}
+
+.dropdown-item {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+.enterprises {
+    margin-top: 12%;
+    letter-spacing: 2px;
+    color: black;
+}
+.ent {
+    letter-spacing: 0px;
+    color: #9C9C9C;
+}
