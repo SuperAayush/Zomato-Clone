@@ -1,0 +1,51 @@
+.container1{
+    position: relative;
+}
+#header_img{
+    width:100%;
+    position: absolute;
+}
+#header_zomato{
+    position:absolute;
+    margin-left: 18%;
+    margin-top: 1.5%;
+    display: flex;
+}
+.container-a{
+    position:absolute;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 38%;
+}
+
+#we{
+    font-size: 1.5rem;
+    width:90%;
+}
+
+#application{
+    font-size: 3.5rem;
+}
+/* .container2{
+    height:500px;
+    position: absolute;
+    margin-top: 70%;
+} */
+
+#home{
+    padding-left: 150%;
+    color:white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#home1{
+padding-left: 20%;
+clear: both;
+display: inline-block;
+white-space: nowrap;
+color:white;
+font-size: 1.2rem;
+text-decoration: none;
+}
