@@ -14,7 +14,63 @@
     padding-top: 1%;
 
 }
-.container2{
-    margin-top: 30%;
+.row{
+    width: 27%;
+    box-shadow: #696969;
+   
+    
+}
+
+
+.main{
+    margin-left: 22%;
+    display: flex;
+    margin-top: 5%;
+    gap: 40px;
+    box-shadow: #696969;
+}
+.main1{
+    margin-left: 22%;
+    display: flex;
+    margin-top: 5%;
+    gap: 40px;
+    height: 450px;
+}
+.card{
+    width: 4%;
+    height: 85px; 
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 10px;
+  
+    
+}
+.snap{
+    margin-top: 8%;
+    
+}
+.apna-desh{
+margin-top: -4%;
+margin-left: 20%;
+color: #696969;
+font-size: 20px;
+font-weight: 390;
+}
+.heading1{
+    margin-top: -13%;
+    margin-left: 20%;
+    color:#2781E7;
+    font-weight: 450;
+    font-size: 29px;
+}
+.container3{
+    margin-top: 5%;
+}
+.snap2{
+    width: 100%;
+    position: absolute;
+}
+.works{
+    position: relative;
+    margin-left: 44%;
     
 }
