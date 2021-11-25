@@ -1,3 +1,7 @@
+*{
+    font-family: 'Okra, Helvetica', sans-serif;
+}
+
 .heading{
     
     margin-left: 30%;
@@ -21,6 +25,63 @@
     
 }
 
+#cont5_head{
+    margin-left: 40%;
+    padding-top: 6%;
+    
+}
+.container5-a{
+    display: flex;
+}
+
+.card1{
+  width: 19.55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  margin-left: 10%;
+}
+
+.card2{
+    width: 19.55%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.card3{
+    width: 19.55%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.card4{
+    width: 19.55%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-left: 10%;
+  }
+  
+.card5{
+      width: 19.55%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 5px;
+      margin-left: 5%;
+}
+.card6{
+      width: 19.55%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 5px;
+      margin-left: 5%;
+}
+
+.card_hed{
+    margin-top:5%;
+    margin-left:3%;
+    font-size: 1.5rem;
+}
+.card_para{
+    margin-top:3%;
+    margin-left:3%;
+}
 
 .main{
     margin-left: 22%;
