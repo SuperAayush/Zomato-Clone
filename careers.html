@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,10 +14,34 @@
     <link rel="icon" type="image/png" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png">
     <title>Zomato Careers - Apply for job at Zomato</title>
     <link rel="stylesheet" href="careers.css">
-    
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('.faq_question').click(function() {
+
+                if ($(this).parent().is('.open')) {
+                    $(this).closest('.faq').find('.faq_answer_container').animate({
+                        'height': '0'
+                    }, 500);
+                    $(this).closest('.faq').removeClass('open');
+
+                } else {
+                    var newHeight = $(this).closest('.faq').find('.faq_answer').height() + 'px';
+                    $(this).closest('.faq').find('.faq_answer_container').animate({
+                        'height': newHeight
+                    }, 500);
+                    $(this).closest('.faq').addClass('open');
+                }
+            });
+        });
+    </script>
+
 </head>
+
 <body>
-    
+
     <div class="container1">
         <img id="header_img" src="Images/web-backdrop1.png" alt="" srcset="">
         <span id="header_zomato">
@@ -25,7 +50,7 @@
             <a id="home1" href="who-we-are.html">Who We Are</a>
             <a id="home1" href="">Careers</a>
         </span>
-        
+
         <div class="container-a">
             <h1 id="application">We don’t accept job applications</h1>
             <p id="we">We only take applications through employee referrals. If you know someone at Zomato, reach out to them and share an eye-catching application (with a brief video, maybe?). Otherwise, if you have <br> what it takes, we will find you.</p>
@@ -34,28 +59,135 @@
     </div>
     <div class="container2">
         <img class="pic" src="Images/career.png">
-       <div class="text"><h1>Better food for more people</h1>
-          <p class="para" > At Zomato, we're working on solving the challenges that take us a step closer to our vision every day.</p>
-     </div>
-   </div>
-   <div class="buttons">
-      <div class="button1">
-          <img class="image1" src="Images/earth.png">
-          <h3 class="text1">24 Countries</h3>
-      </div>
-      <div class="button2">
-        <img class="image2" src="Images/location.png">
-        <h3 class="text2">10k+ Cities</h3>
+        <div class="text">
+            <h1>Better food for more people</h1>
+            <p class="para"> At Zomato, we're working on solving the challenges that take us a step closer to our vision every day.</p>
+        </div>
     </div>
-    <div class="button3">
-        <img class="image3" src="Images/house.png">
-        <h3 class="text3">1.5m Listings</h3>
+    <div class="buttons">
+        <div class="button1">
+            <img class="image1" src="Images/earth.png">
+            <h3 class="text1">24 Countries</h3>
+        </div>
+        <div class="button2">
+            <img class="image2" src="Images/location.png">
+            <h3 class="text2">10k+ Cities</h3>
+        </div>
+        <div class="button3">
+            <img class="image3" src="Images/house.png">
+            <h3 class="text3">1.5m Listings</h3>
+        </div>
     </div>
-</div>
-    
-  <div class="container4">
-    <img class="footer_logo2" src="Images/Zomato logo.webp" alt="zomato">
-    <span class="drop1">
+    <div class="faq_container3">
+        <div class="head3">
+            <h1>Employee Benefits</h1>
+        </div>
+        <!-- one -->
+        <div class="faq">
+            <div class="faq_question">
+                Parental Leave Policy
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">For men and women at Zomato, we offer 26 weeks paid leave. This policy also applies to non-birthing parents, and in cases of surrogacy, adoption, and same-sex partners. In countries where the mandated leave policy is more than 26 weeks,
+                    the local regulations apply.</div>
+            </div>
+        </div>
+        <!-- two -->
+        <div class="faq">
+            <div class="faq_question">
+                No Probation and Notice Periods
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">There's no probation period for anyone who works with us at Zomato. Additionally, we do not require Zomans to serve notice periods.</div>
+            </div>
+        </div>
+        <!-- three -->
+        <div class="faq">
+            <div class="faq_question">
+                Medical Coverage
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+            </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Zomato provides medical insurance to all its employees, unless these are already covered by the government. In some markets, the insurance extends coverage to spouse and children as well.</div>
+            </div>
+        </div>
+        <!-- four -->
+        <div class="faq">
+            <div class="faq_question">
+                Period Leave
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Zomato's Period Leave Policy has been designed to give our employees the necessary time off to cater to their health when needed, during their menstrual cycle. Eligible Zomans can avail up to 10 days of period leaves in a year or as indicated
+                    by local laws.</div>
+            </div>
+        </div>
+        <!-- five -->
+        <div class="faq">
+            <div class="faq_question">
+                In-office Creche
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">An in-house creche and daycare facility is available in all our large offices.</div>
+            </div>
+        </div>
+        <!-- six -->
+        <div class="faq">
+            <div class="faq_question">
+
+                In-office Psychiatrist Team
+
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">We have an in house team of psychiatrists and counselors focusing on creating a healthier work environment for all.</div>
+            </div>
+        </div>
+        <!-- seven -->
+        <div class="faq">
+            <div class="faq_question">
+                Food and Snacks
+                <span class="arrow3">
+                <svg width="15" height="10" viewbox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="White" stroke-width="7" stroke-inecap="round"/>
+                </svg>
+                </span>
+            </div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Zomato has an all-time accessible pantry facility, and offers food and snacks at subsidized rates in all its large offices.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <img class="footer_logo2" src="Images/Zomato logo.webp" alt="zomato">
+        <span class="drop1">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle"
             style="width:122px; font-size:18px; font-family: 'Open Sans', sans-serif; font-weight: lighter;
@@ -99,7 +231,7 @@
             </div>
           </div>
     </span>
-    <span class="drop2">
+        <span class="drop2">
         <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle"
             style="width:130px; font-size:18px; font-family: 'Open Sans', sans-serif; font-weight: lighter;
@@ -123,40 +255,40 @@
             </ul>
           </div>
     </span>
-</div>
-<div class="container5">
-    <div class="container5-1">
-        <table>
-            <tr>
-                <td>
-                    <b class="l-space">COMPANY</b><br> Who are we<br> Blog
-                    <br> Careers
-                    <br> Report Fraud<br> Contact
-                    <br> Investor Relations<br>
-                </td>
-            </tr>
-        </table>
     </div>
-    <div class="container5-2">
-        <table>
-            <tr>
-                <td>
-                    <b class="l-space">FOR FOODIES</b><br> Code of Conduct<br> Community
-                    <br> Blogger Help<br> Mobile Apps<br>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <div class="container5-3">
-        <table>
-            <tr>
-                <td>
-                    <b class="l-space">FOR RESTAURANTS</b><br> Add restaurant<br>
-                    <div class="enterprises"><b>FOR ENTERPRISES</b><br>
+    <div class="container5">
+        <div class="container5-1">
+            <table>
+                <tr>
+                    <td>
+                        <b class="l-space">COMPANY</b><br> Who are we<br> Blog
+                        <br> Careers
+                        <br> Report Fraud<br> Contact
+                        <br> Investor Relations<br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container5-2">
+            <table>
+                <tr>
+                    <td>
+                        <b class="l-space">FOR FOODIES</b><br> Code of Conduct<br> Community
+                        <br> Blogger Help<br> Mobile Apps<br>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container5-3">
+            <table>
+                <tr>
+                    <td>
+                        <b class="l-space">FOR RESTAURANTS</b><br> Add restaurant<br>
+                        <div class="enterprises"><b>FOR ENTERPRISES</b><br></div>
                         <p class="ent">Zomato for Work</p>
-                </td>
-            </tr>
-        </table>
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class="container5-4">
             <table>
@@ -191,9 +323,10 @@
     <div class="container6">
         <hr style="margin:0; margin-bottom: 20px;">
         <p>
-            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2021 © Zomato™ Ltd. All rights reserved.
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2021 ©️ Zomato™️ Ltd. All rights reserved.
         </p>
     </div>
     <script src="careers.js"></script>
 </body>
+
 </html>
