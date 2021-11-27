@@ -28,7 +28,10 @@
 .button1{
     color: #FF7E8B;
     display: flex;
-    padding-right: 5%;
+    height: 95px;
+    width: 280px;
+    border-radius: 3%;
+    padding-right: 3%;
     border-style: solid;
     border-color: white;
     box-shadow: 1px 1px 10px 10px #F4F4F4;
@@ -36,42 +39,57 @@
 .image1{
     height: 55px;
     width: 55px;
-    
+    margin-top: 6%;
+    margin-left: 4%;
 }
 .text1{
    margin-left: 8%;
-   margin-top: 4%;
+   margin-top: 10%;
    margin-right: -8%;
 }
 .button2{
     color: #FF7E8B;
     display: flex; 
-    padding-left: 5%;
+    height: 95px;
+    width: 280px;
+    border-radius: 3%;
+    margin-left: 3%;
     padding-right: 5%;
-   
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 10px 10px #F4F4F4;
 }
 .image2{
     height: 55px;
     width: 55px;
+    margin-top: 6%;
+    margin-left: 4%;
 }
 .text2{
    margin-left: 8%;
-   margin-top: 4%;
+   margin-top: 10%;
    margin-right: -8%;
 }
 .button3{
     color: #FF7E8B;
     display: flex;
-    padding-left: 5%;
-    
+    height: 95px;
+    width: 280px;
+    border-radius: 3%;
+    margin-left: 3%;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 10px 10px #F4F4F4;
 }
 .image3{
     height: 55px;
     width: 55px;
+    margin-top: 6%;
+    margin-left: 4%;
 }
 .text3{
    margin-left: 8%;
-   margin-top: 4%;
+   margin-top: 10%;
    margin-right: -8%;
 }
 .container1{
