@@ -396,63 +396,8 @@
             By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2021 © Zomato™ Ltd. All rights reserved.
         </p>
     </div>
-
-<<<<<<< HEAD
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("image ");
-            var dots = document.getElementsByClassName("dot ");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none ";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active ", " ");
-            }
-            slides[slideIndex - 1].style.display = "block ";
-            dots[slideIndex - 1].className += " active ";
-        }
-    </script>
-
-
-
-
-
-
-    <!-- Next and previous buttons -->
-    <!-- <a class="prev " onclick="plusSlides(-1) ">&#10094;</a>
-          <a class="next " onclick="plusSlides(1) ">&#10095;</a>
-        </div>
-        <br> -->
-
-    <!-- The dots/circles -->
-    <!-- <div style="text-align:center ">
-          <span class="dot " onclick="currentSlide(1) "></span>
-          <span class="dot " onclick="currentSlide(2) "></span>
-          <span class="dot " onclick="currentSlide(3) "></span>
-        </div>
-    </div> -->
+    <script src="who-we-are.js"></script>
     </body>
-=======
-<script src="who-we-are.js"></script>
-</body>
->>>>>>> upstream/main
+
 
 </html>
