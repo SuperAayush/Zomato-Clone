@@ -18,7 +18,7 @@ body:
         What are possible you cases for your suggested feature?
         Are you using any workarounds in the meantime?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: relatedproblems
     attributes:
@@ -27,4 +27,4 @@ body:
         Is your Request related to a problem?
         Think about linking existing Issues here!
     validations:
-      required: 
+      required: false
