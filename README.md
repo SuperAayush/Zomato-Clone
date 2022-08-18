@@ -41,7 +41,7 @@ Contributions are always welcome!
 
 See [CONTRIBUTIONS.md](https://github.com/SuperAayush/Zomato-Clone/blob/main/CONTRIBUTING.md) for ways to get started.
 
-Please adhere to this project's ```code of conduct```.
+Please adhere to this project's [code of conduct](https://github.com/SuperAayush/Zomato-Clone/blob/main/CODE_OF_CONDUCT.md).
 
 <hr>
 
