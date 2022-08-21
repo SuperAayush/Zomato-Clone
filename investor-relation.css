@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.heading-ir {
+    padding: 0 4.8rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+
+.heading-ir .logo{
+    height: 2.15rem;
+    padding-left: 16rem;
+}
+.heading-ir .logo-text{
+    padding-right: 20rem;
+    font-weight:500;
+    font-family: 'Nunito', sans-serif;
+    color:black;
+    white-space: nowrap ;
+    
+
+    font-size: 2rem;
+}
+
+.navbar-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding-right:20rem;
+    padding-top: .6rem;
+}
+
+.navbar-links{
+   
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: lighter;
+    white-space: nowrap ;
+    color: black;
+    font-family: 'Okra, Helvetica', sans-serif;
+}
+
+/*-----------------Sliders---------------*/
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  .mySlides {
+    display: none;
+    
+  }
+  
+ 
+  
+
+  .text {
+    color: #f2f2f2;
+    padding: 6rem 20rem;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+    
+  }
+
+  .text h1{
+    font-size: 7rem;
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+  }
+  .text h3{
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  .text h5{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-radius: 10%;
+    padding: 8px 15px;
+    background: rgb(204, 204, 204,);
+    background: rgba(74, 72, 72, 0.5);
+    
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    transform: translateX(-50%);
+  }
+  
+  .active, .dot:hover {
+    background-color: #d20808a4;
+  }
+  
+  /* Fading animation */
+  .fade {
+    
+    animation:forwards;
+    animation-delay: 1s;
+    height: 82vh;
+    
+}
+
+
+
+/*----------------------------Quarterly Section--------*/
+  
+.results{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 8rem;
+    padding-right: 20rem;
+
+  
+}
+
+.results .result-text h2{
+
+    font-size: 3.5rem;
+    font-weight: lighter;
+
+}
+.results .result-text h3 {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    color: rgb(128, 124, 124);
+
+}
+.btn-result{
+    padding-top: 2.5rem;
+    
+    
+}
+.button{
+    border: none;
+    padding: 0.5rem 1.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 2rem;
+    
+}
+.button-icon img{
+    height: 2.3rem;
+    padding-right: 0.7rem;
+   
+}
+
+.button-text{
+    font-size: 2rem;
+    font-family: 'Okra, Helvetica', sans-serif;
+    letter-spacing: 1px;
+}
+
+.red-btn{
+    padding-top: 4rem;
+}
+
+.red-btn button{
+    border: none;
+    padding: 1.1rem 1.4rem;
+    
+    border-radius: 5px;
+    background-color: #EF4F5F;
+    color: white;
+    font-weight: lighter;
+    
+    
+    
+}
+
+.red-btn-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+    margin-top: 7rem;
+}
+
+.blinkit{
+    margin-top: 4rem;
+}
+
+.blinkit h3{
+    font-size: 3.4rem;
+    font-weight: lighter;
+    
+}
+.blinkit button {
+    margin-top: 4rem;
+}
+
+/*---------------------Who We Are ---------------*/
+
+.who-we{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 8rem;
+    padding-right: 5rem;
+    padding-bottom: 8rem;
+    background-color: #f8f8f8;
+    margin-top: 8rem;
+    display: flex;
+
+
+}
+
+.who-we h1{
+    font-size: 3.4rem;
+    font-weight: lighter;
+
+}
+
+.who-we h6{
+    margin-top: 5rem ;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color: rgb(128, 124, 124);
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.who-we-img img{
+    height: 50rem;
+    margin-left: 5rem;
+}
+
+/*---------------------------Carporate Section-----*/
+
+.carpo-sec{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 8rem;
+    padding-right: 20rem;
+    margin-bottom: 4rem;
+
+}
+
+.carpo-sec .carpo-head h1{
+    font-size: 3.4rem;
+    font-weight: lighter;
+
+}
+
+.carpo-date h5{
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(128, 124, 124);
+    
+}
+
+.carpo-date h1{
+    font-size: 3.3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.carpo-date h6{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color:#EF4F5F ;
+    font-weight: lighter;
+    
+}
+
+
+/*---------------------From Our Blog--------------*/
+
+.blogs{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 3.5rem;
+   
+    padding-bottom: 8rem;
+    background-color: #f8f8f8;
+    
+    
+
+}
+
+.head-blog h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    
+}
+.blog-content{
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 2rem;
+    
+    
+}
+.blog-img{
+    position: relative;
+}
+.text-block1 {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background: rgb(7, 7, 7);
+    background: rgba(22, 11, 11, 0.73);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-block2 {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background: rgb(7, 7, 7);
+    background: rgba(22, 11, 11, 0.593);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-block3 {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background: rgb(7, 7, 7);
+    background: rgba(22, 11, 11, 0.593);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.blog-content img{
+    height: 23rem;
+    margin-left: rem;
+    
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.blog-date h6{
+    color: rgb(128, 124, 124);
+    font-size: 1.4rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+
+}
+
+.blog-head h3{
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.4px;
+    margin-top: 1rem;
+}
+
+.blog-para h5{
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+    color: rgb(128, 124, 124);
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
+
+/*---------------Subscribe Section---------*/
+
+
+.subs{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 3rem;
+    
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.subs-head h1{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subs-head h6{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(128, 124, 124);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subs-email{
+    margin-top: 2rem;
+}
+.subs-email ::placeholder{
+    font-size: 2rem;
+    color: rgb(171, 163, 163);
+    padding-left: 1.5rem;
+
+   
+
+}
+
+.subs-email input{
+   width: 35rem;
+   height: 5rem;
+   border-radius: 5px;
+   border-color: rgba(31, 29, 29, 0.223);;
+
+}
+
+.subs-head2 h1{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap ;
+
+}
+
+.subs-head2 h6{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(128, 124, 124);
+    font-family: 'Roboto', sans-serif;
+    
+   
+
+}
+
+.subs-link{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: #EF4F5F;
+}
+
+/*-----------------------Footer-css----------------------------*/
+
+.ft-zomato{
+    width: 100%;
+    position: relative;
+    padding-left: 20rem;
+    padding-top: 3.5rem;
+    padding-right: 20rem;
+    background-color: #f8f8f8;
+   
+    
+
+}
+
+
+
+
+
+
+.container5{
+    height:20px;
+    justify-content: space-between;
+    display:flex;
+    margin-top:2rem ;
+    
+}
+
+.btn-ft{
+    display: flex;
+    margin-right: 15rem;
+    gap: 1rem;
+  
+}
+
+.btn-secondary{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border-color: rgba(191, 183, 183, 0.807);
+    background-color: #f8f8f8;
+    border: 1px solid rgb(177, 168, 168);
+}
+
+.btn-secondary img{
+    height: 25px;
+}
+
+
+.container6{
+    padding-top:40px;
+    
+    display: flex;
+    font-weight: normal;
+    
+    padding-bottom: 50px;
+
+}
+
+
+.container6-1,.container6-2,.container6-3,.container6-4,.container6-5
+{
+    padding-left:10%;
+    font-size:13px;
+    padding-top: 30px;
+    line-height:2;
+   
+}
+.container6-1
+{
+    padding-left:0;
+    font-size:13px;
+    padding-top: 30px;
+}
+.container7{
+   
+    font-weight: lighter;
+    font-size:14px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    color:#9C9C9C;
+}
+
+
+.footer_logo{
+    height:30px;
+}
+.store-footer{
+    height: 40px;
+    margin-top: 10%;
+}
+
+.icons-footer{
+    width:23px;
+}
+.l-space{
+    letter-spacing:2px;
+    font-weight:light;
+    color:#000000;
+    font-size: 1.3rem;
+}
+
+.drop1{
+     margin-left: 51%;
+}
+
+.drop2{
+    margin-left:2%;
+}
+
+#language-globe{
+    height:18px;
+}
+
+#India{
+    height:25px;
+}
+
+#ent{
+    letter-spacing: 0px;
+    color: #9C9C9C;
+    text-decoration: none;
+    line-height: 2.5rem;
+    font-size: 15px;
+}
+#ent:hover{
+    color: black;
+}
+
