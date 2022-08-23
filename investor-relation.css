@@ -12,8 +12,8 @@ html{
 }
 
 .heading-ir {
-    padding: 0 4.8rem;
-    height: 7rem;
+    padding: 0% 6%;
+    height: 9vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,10 +32,10 @@ html{
 
 .heading-ir .logo{
     height: 2.15rem;
-    padding-left: 16rem;
+    padding-left: 35%;
 }
 .heading-ir .logo-text{
-    padding-right: 20rem;
+   
     font-weight:500;
     font-family: 'Nunito', sans-serif;
     color:black;
@@ -58,7 +58,7 @@ html{
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14.5px;
+    font-size: 1.45rem;
     font-weight: lighter;
     white-space: nowrap ;
     color: black;
@@ -75,17 +75,19 @@ html{
   
   .mySlides {
     display: none;
-    
   }
+
+  
+  
   
  
   
 
   .text {
     color: #f2f2f2;
-    padding: 6rem 20rem;
+    padding: 5% 12%;
     position: absolute;
-    bottom: 8px;
+    bottom: 0.8rem;
     width: 100%;
     text-align: left;
     
@@ -105,27 +107,20 @@ html{
     font-size: 1.5rem;
     font-weight: 100;
     border-radius: 10%;
-    padding: 8px 15px;
+    padding: .8rem 1.5rem;
     background: rgb(204, 204, 204,);
     background: rgba(74, 72, 72, 0.5);
     
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
+
   
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
-    height: 7px;
-    width: 7px;
-    margin: 0 2px;
+    height: .7rem;
+    width: .7rem;
+    margin: 0 0.2rem;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -153,9 +148,9 @@ html{
 .results{
     width: 100%;
     position: relative;
-    padding-left: 20rem;
-    padding-top: 8rem;
-    padding-right: 20rem;
+    padding: 0% 12%;
+    padding-top: 5%;
+   
 
   
 }
@@ -168,22 +163,22 @@ html{
 }
 .results .result-text h3 {
     font-size: 2.3rem;
-    padding-top: 2rem;
+    padding-top: 2%;
     font-weight: lighter;
     color: rgb(128, 124, 124);
 
 }
 .btn-result{
-    padding-top: 2.5rem;
+    padding-top: 2.5%;
     
     
 }
 .button{
     border: none;
-    padding: 0.5rem 1.4rem;
+    padding: 0.5% 1.4%;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     margin-right: 2rem;
     
 }
@@ -196,7 +191,7 @@ html{
 .button-text{
     font-size: 2rem;
     font-family: 'Okra, Helvetica', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 }
 
 .red-btn{
@@ -207,7 +202,7 @@ html{
     border: none;
     padding: 1.1rem 1.4rem;
     
-    border-radius: 5px;
+    border-radius: 0.5rem;
     background-color: #EF4F5F;
     color: white;
     font-weight: lighter;
@@ -220,12 +215,12 @@ html{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
 
 }
 
 hr.solid {
-    border-top: 2px solid #bbb;
+    border-top: 0.2rem solid #bbb;
     margin-top: 7rem;
 }
 
@@ -247,13 +242,14 @@ hr.solid {
 .who-we{
     width: 100%;
     position: relative;
-    padding-left: 20rem;
-    padding-top: 8rem;
-    padding-right: 5rem;
-    padding-bottom: 8rem;
+    padding-left:12%;
+    padding-top: 5%;
+    padding-right: 12%;
+    padding-bottom: 5%;
     background-color: #f8f8f8;
     margin-top: 8rem;
     display: flex;
+    min-height: 100vh;
 
 
 }
@@ -274,8 +270,10 @@ hr.solid {
 }
 
 .who-we-img img{
-    height: 50rem;
+    height: 70vh;
     margin-left: 5rem;
+    
+    
 }
 
 /*---------------------------Carporate Section-----*/
@@ -283,9 +281,9 @@ hr.solid {
 .carpo-sec{
     width: 100%;
     position: relative;
-    padding-left: 20rem;
-    padding-top: 8rem;
-    padding-right: 20rem;
+    padding-left: 12%;
+    padding-top:5%;
+    padding-right: 12%;
     margin-bottom: 4rem;
 
 }
@@ -326,10 +324,11 @@ hr.solid {
 .blogs{
     width: 100%;
     position: relative;
-    padding-left: 20rem;
-    padding-top: 3.5rem;
+    padding-left: 12%;
+    padding-top: 3%;
+    padding-right: 12%;
    
-    padding-bottom: 8rem;
+    padding-bottom: 5%;
     background-color: #f8f8f8;
     
     
@@ -353,54 +352,54 @@ hr.solid {
 }
 .text-block1 {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    bottom: 1rem;
+    right: 2rem;
     font-size: 1.5rem;
     font-weight: 600;
-    border-radius: 5px;
-    padding: 8px 15px;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
     background: rgb(7, 7, 7);
     background: rgba(22, 11, 11, 0.73);
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 .text-block2 {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    bottom: 1rem;
+    right: 2rem;
     font-size: 1.5rem;
     font-weight: 600;
     border-radius: 5px;
-    padding: 8px 15px;
+    padding: 0.8rem 1.5rem;
     background: rgb(7, 7, 7);
     background: rgba(22, 11, 11, 0.593);
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 .text-block3 {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
+    bottom: 1rem;
+    right: 2rem;
     font-size: 1.5rem;
     font-weight: 600;
-    border-radius: 5px;
-    padding: 8px 15px;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
     background: rgb(7, 7, 7);
     background: rgba(22, 11, 11, 0.593);
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 .blog-content img{
-    height: 23rem;
+    height: 30vh;
     margin-left: rem;
     
-    border-radius: 10px;
+    border-radius: 1rem;
     
     
 }
@@ -430,8 +429,8 @@ hr.solid {
 }
 .bottom-right {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 0.8rem;
+    right: 1.6rem;
 }
 
 
@@ -442,7 +441,8 @@ hr.solid {
 .subs{
     width: 100%;
     position: relative;
-    padding-left: 20rem;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 3rem;
     
     margin-bottom: 4rem;
@@ -452,7 +452,7 @@ hr.solid {
 
 .subs-head h1{
     font-size: 3.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     font-weight: 600;
     margin-top: 2rem;
     font-family: 'Roboto', sans-serif;
@@ -462,7 +462,7 @@ hr.solid {
 .subs-head h6{
     margin-top: 1rem;
     font-size: 1.6rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-weight: 600;
     color: rgb(128, 124, 124);
     font-family: 'Roboto', sans-serif;
@@ -484,7 +484,7 @@ hr.solid {
 .subs-email input{
    width: 35rem;
    height: 5rem;
-   border-radius: 5px;
+   border-radius: 0.5rem;
    border-color: rgba(31, 29, 29, 0.223);;
 
 }
@@ -539,7 +539,7 @@ hr.solid {
 
 
 .container5{
-    height:20px;
+    height:2rem;
     justify-content: space-between;
     display:flex;
     margin-top:2rem ;
@@ -558,24 +558,24 @@ hr.solid {
     gap: 1rem;
     align-items: center;
     padding: 0.5rem 0.5rem;
-    border-radius: 5px;
+    border-radius: 0.5px;
     border-color: rgba(191, 183, 183, 0.807);
     background-color: #f8f8f8;
     border: 1px solid rgb(177, 168, 168);
 }
 
 .btn-secondary img{
-    height: 25px;
+    height: 2.5rem;
 }
 
 
 .container6{
-    padding-top:40px;
+    padding-top:4rem;
     
     display: flex;
     font-weight: normal;
     
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 
 }
 
@@ -583,37 +583,37 @@ hr.solid {
 .container6-1,.container6-2,.container6-3,.container6-4,.container6-5
 {
     padding-left:10%;
-    font-size:13px;
-    padding-top: 30px;
+    font-size:1.3rem;
+    padding-top: 3rem;
     line-height:2;
    
 }
 .container6-1
 {
     padding-left:0;
-    font-size:13px;
-    padding-top: 30px;
+    font-size:1.3rem;
+    padding-top: 3rem;
 }
 .container7{
    
     font-weight: lighter;
-    font-size:14px;
-    padding-bottom: 20px;
+    font-size:1.4rem;
+    padding-bottom: 2rem;
     margin-top: 0;
     color:#9C9C9C;
 }
 
 
 .footer_logo{
-    height:30px;
+    height:3rem;
 }
 .store-footer{
-    height: 40px;
+    height: 4rem;
     margin-top: 10%;
 }
 
 .icons-footer{
-    width:23px;
+    width:2.3rem;
 }
 .l-space{
     letter-spacing:2px;
@@ -631,11 +631,11 @@ hr.solid {
 }
 
 #language-globe{
-    height:18px;
+    height:1.8rem;
 }
 
 #India{
-    height:25px;
+    height:2.5rem;
 }
 
 #ent{
@@ -643,7 +643,7 @@ hr.solid {
     color: #9C9C9C;
     text-decoration: none;
     line-height: 2.5rem;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 #ent:hover{
     color: black;
