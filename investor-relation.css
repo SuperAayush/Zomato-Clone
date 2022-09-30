@@ -26,8 +26,9 @@ html{
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    
-    
+}
+.header-content:hover{
+    cursor: pointer;
 }
 
 .heading-ir .logo{
