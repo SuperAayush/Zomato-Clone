@@ -53,6 +53,10 @@ html{
     padding-top: .6rem;
 }
 
+.navbar-links:hover{
+    color: rgb(239, 79, 95);
+}
+
 .navbar-links{
    
     display: inline-block;
@@ -198,7 +202,12 @@ html{
     align-items: center;
     border-radius: 0.5rem;
     margin-right: 2rem;
+    cursor: pointer;
     
+}
+
+h6{
+    cursor: pointer;
 }
 .button-icon img{
     height: 2.3rem;
@@ -216,14 +225,21 @@ html{
     padding-top: 4rem;
 }
 
+.red-btn button:hover{
+    transition: transform 0.25s ease;
+    opacity: 0.9;
+    box-shadow: 0.25s ease 0s;
+    
+    
+}
 .red-btn button{
     border: none;
     padding: 1.1rem 1.4rem;
-    
     border-radius: 0.5rem;
     background-color: #EF4F5F;
     color: white;
     font-weight: lighter;
+    cursor: pointer;
     
     
     
@@ -253,6 +269,7 @@ hr.solid {
 }
 .blinkit button {
     margin-top: 4rem;
+    cursor: pointer;
 }
 
 /*---------------------Who We Are ---------------*/
@@ -362,6 +379,7 @@ hr.solid {
     display: flex;
     margin-top: 2.5rem;
     gap: 2rem;
+    cursor: pointer;
     
     
 }
