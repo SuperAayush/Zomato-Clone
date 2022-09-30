@@ -21,6 +21,9 @@ html{
     
 
 }
+.navbar_item:hover{
+    color:rgb(238, 50, 50);
+}
 .header-content{
     display: flex;
     justify-content: space-between;
