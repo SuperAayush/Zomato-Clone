@@ -18,7 +18,7 @@ html,body{
     height: 100vh;
     z-index: 1;
     overflow: visible;
-    background: #1b1d21 url('zomatoo.gif') no-repeat center center;
+    background: #1b1d21 url('zomato.gif') no-repeat center center;
 }
 
 .pic{
