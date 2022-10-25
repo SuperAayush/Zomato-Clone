@@ -26,7 +26,8 @@
     <title>Zomato</title>
     
         
-<body>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
     <!--Header-->
     <!--Image Added-->
 
@@ -545,5 +546,17 @@
     </p>
         </div>
         <script src="index.js"></script>
+        <script>
+            var myVar;
+          
+            function myFunction() {
+            myVar = setTimeout(showPage, 1750);
+            }
+          
+            function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+            }
+          </script>
 </body>
 </html>

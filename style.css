@@ -9,6 +9,18 @@ html,body{
     overflow-x: hidden;
 }
 
+
+/* Center the loader */
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #1b1d21 url('zomatoo.gif') no-repeat center center;
+}
+
 .pic{
     width: 100%;
     height: 500px;
@@ -197,15 +209,6 @@ h4 {
     font-weight: normal;
     background: transparent;  
   }
-  /* .text-email{
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    border-bottom: 2px solid #eee;
-    padding-left: 0;
-    font-weight: normal;
-    background: transparent;
-  } */
   .phone-number{
 
       margin-top:10%;
@@ -279,11 +282,11 @@ h4 {
 }
 
 .restaurant:hover{
-color: white;
+color:white;
 }
 
 .login-trigger:hover{
-    color: white;
+    color:white;
 }
 
 .signup:hover{
