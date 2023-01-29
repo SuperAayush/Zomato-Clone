@@ -104,7 +104,9 @@ html{
     
     
   }
-
+.text:hover{
+    color: rgb(239, 79, 95);
+}
   .text h1{
     font-size: 7rem;
     font-weight: lighter;
