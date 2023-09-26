@@ -1,0 +1,539 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 0;
+}
+
+.bg {
+    background-image: url(Images/We\ serve\ daily\ meals\ to\ people\ in\ need\ across\ India.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center;    
+    height: 30%;
+    width: 100%;
+    padding-bottom: 30rem; */
+
+}
+
+.navbar {
+    margin-top: 49px;
+    color: white;
+    position: absolute;
+    display: flex;
+    /* width: 100; */
+    top: 0;
+    margin-left: 934px;
+    margin-right: 608px;
+    justify-content: space-between;
+    font-size: 990vw 42vh;
+    text-align: center;
+    /* padding: 9px 0px 9px 0px; */
+}
+
+/* .navbar.logo{
+    background-image:url(./Images/feeding-india-logo.png);
+    display: flex;
+
+} */
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-links {
+    padding: 9px 0px 9px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links .li {
+    align-items: flex;
+    display: inline-block;
+    /* padding: 0px 20px; */
+}
+
+.active {
+    margin: 0 30px;
+    align-items: flex;
+}
+
+/* 
+@media only screen and (max-width:850px){
+    .navbar{ padding: 0;
+    }
+    .logo{
+background-image: url(Images/feeding-india-logo.png);
+display: flex;
+position:absolute;
+}
+.nav-links{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* .header{
+    margin-bottom:246px;
+} */
+
+.header-content {
+    text-align: justify;
+    margin-left: 609px;
+    margin-right: 639px;
+    color: white;
+    margin-bottom: 234px;
+}
+
+.header-content h2 {
+    font-size: 52px;
+    /* font-size:4vmin; */
+    margin-top: 290px;
+
+}
+
+.header-content h4 {
+    margin-top: 19px;
+    font-size: 30px;
+    /* margin-bottom:20px;    */
+    padding-bottom: 40px;
+}
+
+/* .line{
+backface-visibility: visible;
+background:none;
+max-width: 10px auto;
+border-spacing: 1px;
+
+ } */
+
+.ctn {
+    padding: 11px 29px 12px 28px;
+    background: #E03546;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border-color: #E03546;
+
+}
+
+.content {
+    margin-left: 609px;
+    margin-right: 608px;
+
+}
+
+.box {
+    border: 0.1px black;
+    background: transparent;
+    /* width: 900px ; */
+    height: 120px;
+}
+
+.p1,
+.p3,
+.head {
+    border: 1px white;
+    text-align: justify;
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 35px;
+}
+
+.s1,
+.s2 {
+    border: 1px;
+    padding-bottom: 20px;
+}
+
+.p2,
+.p4,
+.p5 {
+    border: 1px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+
+    margin-right: 400px;
+    padding-right: 20px;
+
+}
+
+.i1,
+.i2 {
+    border: 1px;
+    position: flex;
+    right: 380px;
+    float: right;
+    image-resolution: 600px 422px;
+    /*422px */
+    border-radius: 400px;
+
+}
+
+.lin1,
+.lin2,
+.lin3 {
+    color: red;
+    font-size: 24px;
+}
+
+.p4,
+.p5,
+.lin2 {
+    padding-bottom: 24px;
+}
+
+/* .col{
+    background-color: #E8E8E8
+
+} */
+
+.lin3 {
+    font-size: 20px
+}
+
+
+.cont {
+    width: 100%;
+    background-color: rgba(189, 181, 181, 0.263);
+    box-sizing: border-box;
+    padding-bottom: 100px;
+    margin-right: 60%;
+}
+
+.head {
+    padding: 50px 0px 30px 0px;
+    margin-left: 609px;
+    margin-right: 608px;
+}
+
+.rowc {
+
+    margin-left: 609px;
+    margin-right: 608px;
+    /* float: left;
+     width: 33.3%; */
+    /* padding: 10px; */
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.card::after {
+    margin-top: 168px;
+    margin: 10px auto;
+    flex: 10px;
+    display: table;
+    clear: both;
+
+}
+
+.im1 {
+    border: 1px;
+    border-radius: 50px;
+
+}
+
+
+.container2 {
+    margin-left: 609px;
+    margin-right: 608px;
+
+}
+
+.top {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.socio {
+
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 21px;
+}
+
+.I-Icons {
+    padding-left: 281px;
+    padding-right: 10px;
+    max-width: 19vw;
+    max-height: 19px;
+}
+
+.T-Icons {
+    max-width: 30vw;
+    max-height: 25px;
+    padding-right: 10px;
+
+}
+
+
+.container4 {
+    display: flex;
+}
+
+.first,
+.second {
+    /* display:block; */
+    position: relative;
+    width: 425px;
+    height: 420px;
+    box-sizing: border-box;
+    border: 2px solid rgba(182, 179, 179, 0.722);
+
+}
+
+.second {
+    margin-left: 26px;
+}
+
+
+.container3 {
+    margin-left: 609px;
+    margin-right: 608px;
+}
+
+.top2 {
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+
+.lin4 {
+    padding-bottom: 12px;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* __________________________________________________________________________________________________________________________________________________________________________________________________ */
+
+.SECTION-FOOTER {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgba(189, 181, 181, 0.263);
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #000000;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #aba9a9a3;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+
+}
+
+/* .logo2{
+    image-resolution: 20px auto;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+    .logo{
+
+        background-image: url(Images/feeding-india-logo.png);
+        width:20px;
+        height:20px;
+    }
+    
+    
+    .navbar{
+        position:absolute;
+        top:0;
+        left:0;
+        display: flex;
+        width:100%;
+        justify-content:space-between;
+        padding: 20px;
+        color:rgb(240, 227, 227);
+        ----------overflow: auto; -------------
+    }
+    
+    ul{
+    list-style:none;
+    }
+    
+    .nav-links{
+        display: flex;
+        align-items: center;  
+    }
+    
+    .nav-links li{
+        margin: 0 30px;
+        align-items:flex;
+    }
+    
+    .active{
+        color: rgb(209, 80, 15);
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    --------------- Response===================
+    @media only screen and (max-width:850px){
+    .navbar{ padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top:30px ;
+        left: 30px;
+    }
+    .nav-links   {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    }      */
