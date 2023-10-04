@@ -1,8 +1,4 @@
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SuperAayush/Zomato-Clone)
-
-- Gitpod can provide a simple way to clone a repository on the browser itself without fork. You can configufre the repository on the browser version of VS Code without worrying about the dependencies to install.
-
 <h1 align="center">Zomato-Clone</h1>
 
 <p aign="center">
@@ -18,11 +14,14 @@ It is a beginner friendly project to start work upon, where you can learn:
 
 <br>
 
-![Screenshot](/Images/ss1.png)
+![Screenshot]()
 
 <br>
 
-![Screenshot](/Images/ss4.png)
+![Screenshot](Images/Zomato-page1)
+![Screenshot](Images/Zomato-page2)
+![Screenshot](Images/Zomato-page3)
+
 
 <br>
 
